@@ -1,0 +1,288 @@
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"motor.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/motor.c"
+  18              		.section	.text.Motor_Reset,"ax",%progbits
+  19              		.align	1
+  20              		.global	Motor_Reset
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  25              	Motor_Reset:
+  26              	.LVL0:
+  27              	.LFB1:
+   1:Core/Src/motor.c **** #include "motor.h"
+   2:Core/Src/motor.c **** #include <math.h>
+   3:Core/Src/motor.c **** 
+   4:Core/Src/motor.c **** void Motor_Init(DCMotorModel *motor, float K, float T1, float Ts)
+   5:Core/Src/motor.c **** {
+   6:Core/Src/motor.c ****     motor->K = K;
+   7:Core/Src/motor.c ****     motor->T1 = T1;
+   8:Core/Src/motor.c ****     motor->Ts = Ts;
+   9:Core/Src/motor.c ****     
+  10:Core/Src/motor.c ****     Motor_Reset(motor);
+  11:Core/Src/motor.c **** }
+  12:Core/Src/motor.c **** 
+  13:Core/Src/motor.c **** void Motor_Reset(DCMotorModel *motor)
+  14:Core/Src/motor.c **** {
+  28              		.loc 1 14 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  15:Core/Src/motor.c ****     motor->y_prev = 0.0f;
+  33              		.loc 1 15 5 view .LVU1
+  34              		.loc 1 15 19 is_stmt 0 view .LVU2
+  35 0000 0023     		movs	r3, #0
+  36 0002 C360     		str	r3, [r0, #12]	@ float
+  16:Core/Src/motor.c ****     motor->output = 0.0f;
+  37              		.loc 1 16 5 is_stmt 1 view .LVU3
+  38              		.loc 1 16 19 is_stmt 0 view .LVU4
+  39 0004 0361     		str	r3, [r0, #16]	@ float
+  17:Core/Src/motor.c **** }
+  40              		.loc 1 17 1 view .LVU5
+  41 0006 7047     		bx	lr
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 2
+
+
+  42              		.cfi_endproc
+  43              	.LFE1:
+  45              		.section	.text.Motor_Init,"ax",%progbits
+  46              		.align	1
+  47              		.global	Motor_Init
+  48              		.syntax unified
+  49              		.thumb
+  50              		.thumb_func
+  52              	Motor_Init:
+  53              	.LVL1:
+  54              	.LFB0:
+   5:Core/Src/motor.c ****     motor->K = K;
+  55              		.loc 1 5 1 is_stmt 1 view -0
+  56              		.cfi_startproc
+  57              		@ args = 0, pretend = 0, frame = 0
+  58              		@ frame_needed = 0, uses_anonymous_args = 0
+   5:Core/Src/motor.c ****     motor->K = K;
+  59              		.loc 1 5 1 is_stmt 0 view .LVU7
+  60 0000 08B5     		push	{r3, lr}
+  61              	.LCFI0:
+  62              		.cfi_def_cfa_offset 8
+  63              		.cfi_offset 3, -8
+  64              		.cfi_offset 14, -4
+   6:Core/Src/motor.c ****     motor->T1 = T1;
+  65              		.loc 1 6 5 is_stmt 1 view .LVU8
+   6:Core/Src/motor.c ****     motor->T1 = T1;
+  66              		.loc 1 6 14 is_stmt 0 view .LVU9
+  67 0002 0160     		str	r1, [r0]	@ float
+   7:Core/Src/motor.c ****     motor->Ts = Ts;
+  68              		.loc 1 7 5 is_stmt 1 view .LVU10
+   7:Core/Src/motor.c ****     motor->Ts = Ts;
+  69              		.loc 1 7 15 is_stmt 0 view .LVU11
+  70 0004 4260     		str	r2, [r0, #4]	@ float
+   8:Core/Src/motor.c ****     
+  71              		.loc 1 8 5 is_stmt 1 view .LVU12
+   8:Core/Src/motor.c ****     
+  72              		.loc 1 8 15 is_stmt 0 view .LVU13
+  73 0006 8360     		str	r3, [r0, #8]	@ float
+  10:Core/Src/motor.c **** }
+  74              		.loc 1 10 5 is_stmt 1 view .LVU14
+  75 0008 FFF7FEFF 		bl	Motor_Reset
+  76              	.LVL2:
+  11:Core/Src/motor.c **** 
+  77              		.loc 1 11 1 is_stmt 0 view .LVU15
+  78 000c 08BD     		pop	{r3, pc}
+  79              		.cfi_endproc
+  80              	.LFE0:
+  82              		.global	__aeabi_fcmpgt
+  83              		.global	__aeabi_fdiv
+  84              		.global	__aeabi_fmul
+  85              		.global	__aeabi_fsub
+  86              		.global	__aeabi_fadd
+  87              		.section	.text.Motor_Update,"ax",%progbits
+  88              		.align	1
+  89              		.global	Motor_Update
+  90              		.syntax unified
+  91              		.thumb
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 3
+
+
+  92              		.thumb_func
+  94              	Motor_Update:
+  95              	.LVL3:
+  96              	.LFB2:
+  18:Core/Src/motor.c **** 
+  19:Core/Src/motor.c **** float Motor_Update(DCMotorModel *motor, float input)
+  20:Core/Src/motor.c **** {
+  97              		.loc 1 20 1 is_stmt 1 view -0
+  98              		.cfi_startproc
+  99              		@ args = 0, pretend = 0, frame = 0
+ 100              		@ frame_needed = 0, uses_anonymous_args = 0
+ 101              		.loc 1 20 1 is_stmt 0 view .LVU17
+ 102 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 103              	.LCFI1:
+ 104              		.cfi_def_cfa_offset 24
+ 105              		.cfi_offset 3, -24
+ 106              		.cfi_offset 4, -20
+ 107              		.cfi_offset 5, -16
+ 108              		.cfi_offset 6, -12
+ 109              		.cfi_offset 7, -8
+ 110              		.cfi_offset 14, -4
+ 111 0002 0446     		mov	r4, r0
+ 112 0004 0D46     		mov	r5, r1
+  21:Core/Src/motor.c ****     // Дискретная реализация модели двигателя (апериоди�
+  22:Core/Src/motor.c ****     if (motor->T1 > 0) {
+ 113              		.loc 1 22 5 is_stmt 1 view .LVU18
+ 114              		.loc 1 22 14 is_stmt 0 view .LVU19
+ 115 0006 4668     		ldr	r6, [r0, #4]	@ float
+ 116              		.loc 1 22 8 view .LVU20
+ 117 0008 0021     		movs	r1, #0
+ 118              	.LVL4:
+ 119              		.loc 1 22 8 view .LVU21
+ 120 000a 3046     		mov	r0, r6
+ 121              	.LVL5:
+ 122              		.loc 1 22 8 view .LVU22
+ 123 000c FFF7FEFF 		bl	__aeabi_fcmpgt
+ 124              	.LVL6:
+ 125 0010 C0B1     		cbz	r0, .L9
+  23:Core/Src/motor.c ****         motor->output = motor->y_prev + 
+ 126              		.loc 1 23 9 is_stmt 1 view .LVU23
+ 127              		.loc 1 23 30 is_stmt 0 view .LVU24
+ 128 0012 E768     		ldr	r7, [r4, #12]	@ float
+  24:Core/Src/motor.c ****                        (motor->Ts / motor->T1) * (motor->K * input - motor->y_prev);
+ 129              		.loc 1 24 35 view .LVU25
+ 130 0014 3146     		mov	r1, r6
+ 131 0016 A068     		ldr	r0, [r4, #8]	@ float
+ 132 0018 FFF7FEFF 		bl	__aeabi_fdiv
+ 133              	.LVL7:
+ 134 001c 0646     		mov	r6, r0
+ 135              		.loc 1 24 60 view .LVU26
+ 136 001e 2946     		mov	r1, r5
+ 137 0020 2068     		ldr	r0, [r4]	@ float
+ 138 0022 FFF7FEFF 		bl	__aeabi_fmul
+ 139              	.LVL8:
+ 140              		.loc 1 24 68 view .LVU27
+ 141 0026 3946     		mov	r1, r7
+ 142 0028 FFF7FEFF 		bl	__aeabi_fsub
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 4
+
+
+ 143              	.LVL9:
+ 144 002c 0146     		mov	r1, r0
+ 145              		.loc 1 24 48 view .LVU28
+ 146 002e 3046     		mov	r0, r6
+ 147 0030 FFF7FEFF 		bl	__aeabi_fmul
+ 148              	.LVL10:
+ 149 0034 0146     		mov	r1, r0
+  23:Core/Src/motor.c ****         motor->output = motor->y_prev + 
+ 150              		.loc 1 23 39 view .LVU29
+ 151 0036 3846     		mov	r0, r7
+ 152 0038 FFF7FEFF 		bl	__aeabi_fadd
+ 153              	.LVL11:
+  23:Core/Src/motor.c ****         motor->output = motor->y_prev + 
+ 154              		.loc 1 23 23 view .LVU30
+ 155 003c 2061     		str	r0, [r4, #16]	@ float
+ 156              	.L7:
+  25:Core/Src/motor.c ****     } else {
+  26:Core/Src/motor.c ****         motor->output = motor->K * input; // При T1=0 - безынерционное звено
+  27:Core/Src/motor.c ****     }
+  28:Core/Src/motor.c ****     
+  29:Core/Src/motor.c ****     // Сохранение для следующего шага
+  30:Core/Src/motor.c ****     motor->y_prev = motor->output;
+ 157              		.loc 1 30 5 is_stmt 1 view .LVU31
+ 158              		.loc 1 30 26 is_stmt 0 view .LVU32
+ 159 003e 2069     		ldr	r0, [r4, #16]	@ float
+ 160              		.loc 1 30 19 view .LVU33
+ 161 0040 E060     		str	r0, [r4, #12]	@ float
+  31:Core/Src/motor.c ****     
+  32:Core/Src/motor.c ****     return motor->output;
+ 162              		.loc 1 32 5 is_stmt 1 view .LVU34
+  33:Core/Src/motor.c **** }
+ 163              		.loc 1 33 1 is_stmt 0 view .LVU35
+ 164 0042 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 165              	.LVL12:
+ 166              	.L9:
+  26:Core/Src/motor.c ****     }
+ 167              		.loc 1 26 9 is_stmt 1 view .LVU36
+  26:Core/Src/motor.c ****     }
+ 168              		.loc 1 26 34 is_stmt 0 view .LVU37
+ 169 0044 2946     		mov	r1, r5
+ 170 0046 2068     		ldr	r0, [r4]	@ float
+ 171 0048 FFF7FEFF 		bl	__aeabi_fmul
+ 172              	.LVL13:
+  26:Core/Src/motor.c ****     }
+ 173              		.loc 1 26 23 view .LVU38
+ 174 004c 2061     		str	r0, [r4, #16]	@ float
+ 175 004e F6E7     		b	.L7
+ 176              		.cfi_endproc
+ 177              	.LFE2:
+ 179              		.section	.text.Motor_SetParams,"ax",%progbits
+ 180              		.align	1
+ 181              		.global	Motor_SetParams
+ 182              		.syntax unified
+ 183              		.thumb
+ 184              		.thumb_func
+ 186              	Motor_SetParams:
+ 187              	.LVL14:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 5
+
+
+ 188              	.LFB3:
+  34:Core/Src/motor.c **** 
+  35:Core/Src/motor.c **** void Motor_SetParams(DCMotorModel *motor, float K, float T1)
+  36:Core/Src/motor.c **** {
+ 189              		.loc 1 36 1 is_stmt 1 view -0
+ 190              		.cfi_startproc
+ 191              		@ args = 0, pretend = 0, frame = 0
+ 192              		@ frame_needed = 0, uses_anonymous_args = 0
+ 193              		@ link register save eliminated.
+  37:Core/Src/motor.c ****     motor->K = K;
+ 194              		.loc 1 37 5 view .LVU40
+ 195              		.loc 1 37 14 is_stmt 0 view .LVU41
+ 196 0000 0160     		str	r1, [r0]	@ float
+  38:Core/Src/motor.c ****     motor->T1 = T1;
+ 197              		.loc 1 38 5 is_stmt 1 view .LVU42
+ 198              		.loc 1 38 15 is_stmt 0 view .LVU43
+ 199 0002 4260     		str	r2, [r0, #4]	@ float
+  39:Core/Src/motor.c **** }...
+ 200              		.loc 1 39 1 view .LVU44
+ 201 0004 7047     		bx	lr
+ 202              		.cfi_endproc
+ 203              	.LFE3:
+ 205              		.text
+ 206              	.Letext0:
+ 207              		.file 2 "Core/Inc/motor.h"
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s 			page 6
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 motor.c
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:19     .text.Motor_Reset:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:25     .text.Motor_Reset:00000000 Motor_Reset
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:46     .text.Motor_Init:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:52     .text.Motor_Init:00000000 Motor_Init
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:88     .text.Motor_Update:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:94     .text.Motor_Update:00000000 Motor_Update
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:180    .text.Motor_SetParams:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccWEUYtU.s:186    .text.Motor_SetParams:00000000 Motor_SetParams
+
+UNDEFINED SYMBOLS
+__aeabi_fcmpgt
+__aeabi_fdiv
+__aeabi_fmul
+__aeabi_fsub
+__aeabi_fadd

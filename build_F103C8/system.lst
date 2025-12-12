@@ -1,0 +1,932 @@
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"system.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/system.c"
+  18              		.section	.text.System_Init,"ax",%progbits
+  19              		.align	1
+  20              		.global	System_Init
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  25              	System_Init:
+  26              	.LFB0:
+   1:Core/Src/system.c **** #include "system.h"
+   2:Core/Src/system.c **** #include "system_config.h"
+   3:Core/Src/system.c **** #include <stdlib.h>
+   4:Core/Src/system.c **** #include <string.h>
+   5:Core/Src/system.c **** 
+   6:Core/Src/system.c **** static ControlSystem system_instance;
+   7:Core/Src/system.c **** static float system_time = 0.0f;  // Глобальное время системы
+   8:Core/Src/system.c **** 
+   9:Core/Src/system.c **** void System_Init(void)
+  10:Core/Src/system.c **** {
+  27              		.loc 1 10 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31 0000 70B5     		push	{r4, r5, r6, lr}
+  32              	.LCFI0:
+  33              		.cfi_def_cfa_offset 16
+  34              		.cfi_offset 4, -16
+  35              		.cfi_offset 5, -12
+  36              		.cfi_offset 6, -8
+  37              		.cfi_offset 14, -4
+  38 0002 82B0     		sub	sp, sp, #8
+  39              	.LCFI1:
+  40              		.cfi_def_cfa_offset 24
+  11:Core/Src/system.c ****     // Инициализация регулятора
+  12:Core/Src/system.c ****     PI_Controller_Init(&system_instance.controller, 
+  41              		.loc 1 12 5 view .LVU1
+  42 0004 1E4C     		ldr	r4, .L3
+  43 0006 4FF08143 		mov	r3, #1082130432
+  44 000a 0193     		str	r3, [sp, #4]	@ float
+  45 000c 1D4B     		ldr	r3, .L3+4
+  46 000e 0093     		str	r3, [sp]	@ float
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 2
+
+
+  47 0010 1D4B     		ldr	r3, .L3+8
+  48 0012 1E4A     		ldr	r2, .L3+12
+  49 0014 1E49     		ldr	r1, .L3+16
+  50 0016 2046     		mov	r0, r4
+  51 0018 FFF7FEFF 		bl	PI_Controller_Init
+  52              	.LVL0:
+  13:Core/Src/system.c ****                       PI_KP, PI_KI, CONTROLLER_TS,
+  14:Core/Src/system.c ****                       PI_MIN_LIMIT, PI_MAX_LIMIT);
+  15:Core/Src/system.c ****     
+  16:Core/Src/system.c ****     // Инициализация фильтра
+  17:Core/Src/system.c ****     Filter_Init(&system_instance.filter, 
+  53              		.loc 1 17 5 view .LVU2
+  54 001c 4FF07E55 		mov	r5, #1065353216
+  55 0020 2B46     		mov	r3, r5
+  56 0022 1C4A     		ldr	r2, .L3+20
+  57 0024 1C49     		ldr	r1, .L3+24
+  58 0026 04F12400 		add	r0, r4, #36
+  59 002a FFF7FEFF 		bl	Filter_Init
+  60              	.LVL1:
+  18:Core/Src/system.c ****                FILTER_T1, FILTER_TS, FILTER_K);
+  19:Core/Src/system.c ****     
+  20:Core/Src/system.c ****     // Инициализация двигателя
+  21:Core/Src/system.c ****     Motor_Init(&system_instance.motor,
+  61              		.loc 1 21 5 view .LVU3
+  62 002e 1B4B     		ldr	r3, .L3+28
+  63 0030 1B4A     		ldr	r2, .L3+32
+  64 0032 2946     		mov	r1, r5
+  65 0034 04F13C00 		add	r0, r4, #60
+  66 0038 FFF7FEFF 		bl	Motor_Init
+  67              	.LVL2:
+  22:Core/Src/system.c ****               MOTOR_K, MOTOR_T1, MOTOR_TS);
+  23:Core/Src/system.c ****     
+  24:Core/Src/system.c ****     // Начальные значения
+  25:Core/Src/system.c ****     system_instance.setpoint = 0.0f;
+  68              		.loc 1 25 5 view .LVU4
+  69              		.loc 1 25 30 is_stmt 0 view .LVU5
+  70 003c 0023     		movs	r3, #0
+  71 003e 2365     		str	r3, [r4, #80]	@ float
+  26:Core/Src/system.c ****     system_instance.controller_output = 0.0f;
+  72              		.loc 1 26 5 is_stmt 1 view .LVU6
+  73              		.loc 1 26 39 is_stmt 0 view .LVU7
+  74 0040 6365     		str	r3, [r4, #84]	@ float
+  27:Core/Src/system.c ****     system_instance.filter_output = 0.0f;
+  75              		.loc 1 27 5 is_stmt 1 view .LVU8
+  76              		.loc 1 27 35 is_stmt 0 view .LVU9
+  77 0042 A365     		str	r3, [r4, #88]	@ float
+  28:Core/Src/system.c ****     system_instance.motor_output = 0.0f;
+  78              		.loc 1 28 5 is_stmt 1 view .LVU10
+  79              		.loc 1 28 34 is_stmt 0 view .LVU11
+  80 0044 E365     		str	r3, [r4, #92]	@ float
+  29:Core/Src/system.c ****     
+  30:Core/Src/system.c ****     system_instance.controller_updated = false;
+  81              		.loc 1 30 5 is_stmt 1 view .LVU12
+  82              		.loc 1 30 40 is_stmt 0 view .LVU13
+  83 0046 0025     		movs	r5, #0
+  84 0048 84F86050 		strb	r5, [r4, #96]
+  31:Core/Src/system.c ****     system_instance.filter_updated = false;
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 3
+
+
+  85              		.loc 1 31 5 is_stmt 1 view .LVU14
+  86              		.loc 1 31 36 is_stmt 0 view .LVU15
+  87 004c 84F86150 		strb	r5, [r4, #97]
+  32:Core/Src/system.c ****     system_instance.motor_updated = false;
+  88              		.loc 1 32 5 is_stmt 1 view .LVU16
+  89              		.loc 1 32 35 is_stmt 0 view .LVU17
+  90 0050 84F86250 		strb	r5, [r4, #98]
+  33:Core/Src/system.c ****     
+  34:Core/Src/system.c ****     // Инициализация буфера
+  35:Core/Src/system.c ****     system_instance.buffer_index = 0;
+  91              		.loc 1 35 5 is_stmt 1 view .LVU18
+  92              		.loc 1 35 34 is_stmt 0 view .LVU19
+  93 0054 04F50053 		add	r3, r4, #8192
+  94 0058 C3F8445F 		str	r5, [r3, #3908]
+  36:Core/Src/system.c ****     system_instance.recording = false;
+  95              		.loc 1 36 5 is_stmt 1 view .LVU20
+  96              		.loc 1 36 31 is_stmt 0 view .LVU21
+  97 005c 83F8485F 		strb	r5, [r3, #3912]
+  37:Core/Src/system.c ****     memset(system_instance.time_buffer, 0, sizeof(system_instance.time_buffer));
+  98              		.loc 1 37 5 is_stmt 1 view .LVU22
+  99 0060 41F27076 		movw	r6, #6000
+ 100 0064 3246     		mov	r2, r6
+ 101 0066 2946     		mov	r1, r5
+ 102 0068 04F16400 		add	r0, r4, #100
+ 103 006c FFF7FEFF 		bl	memset
+ 104              	.LVL3:
+  38:Core/Src/system.c ****     memset(system_instance.value_buffer, 0, sizeof(system_instance.value_buffer));
+ 105              		.loc 1 38 5 view .LVU23
+ 106 0070 3246     		mov	r2, r6
+ 107 0072 2946     		mov	r1, r5
+ 108 0074 0B48     		ldr	r0, .L3+36
+ 109 0076 FFF7FEFF 		bl	memset
+ 110              	.LVL4:
+  39:Core/Src/system.c **** }
+ 111              		.loc 1 39 1 is_stmt 0 view .LVU24
+ 112 007a 02B0     		add	sp, sp, #8
+ 113              	.LCFI2:
+ 114              		.cfi_def_cfa_offset 16
+ 115              		@ sp needed
+ 116 007c 70BD     		pop	{r4, r5, r6, pc}
+ 117              	.L4:
+ 118 007e 00BF     		.align	2
+ 119              	.L3:
+ 120 0080 00000000 		.word	system_instance
+ 121 0084 000040C0 		.word	-1069547520
+ 122 0088 17B75138 		.word	944879383
+ 123 008c 00004842 		.word	1112014848
+ 124 0090 0000A040 		.word	1084227584
+ 125 0094 17B7D138 		.word	953267991
+ 126 0098 0AD7233C 		.word	1008981770
+ 127 009c 17B75139 		.word	961656599
+ 128 00a0 CDCCCC3D 		.word	1036831949
+ 129 00a4 D4170000 		.word	system_instance+6100
+ 130              		.cfi_endproc
+ 131              	.LFE0:
+ 133              		.section	.text.System_ControllerUpdate,"ax",%progbits
+ 134              		.align	1
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 4
+
+
+ 135              		.global	System_ControllerUpdate
+ 136              		.syntax unified
+ 137              		.thumb
+ 138              		.thumb_func
+ 140              	System_ControllerUpdate:
+ 141              	.LFB1:
+  40:Core/Src/system.c **** 
+  41:Core/Src/system.c **** // Вызывается из прерывания таймера контроллера (20 кГц)
+  42:Core/Src/system.c **** void System_ControllerUpdate(void)
+  43:Core/Src/system.c **** {
+ 142              		.loc 1 43 1 is_stmt 1 view -0
+ 143              		.cfi_startproc
+ 144              		@ args = 0, pretend = 0, frame = 0
+ 145              		@ frame_needed = 0, uses_anonymous_args = 0
+ 146 0000 10B5     		push	{r4, lr}
+ 147              	.LCFI3:
+ 148              		.cfi_def_cfa_offset 8
+ 149              		.cfi_offset 4, -8
+ 150              		.cfi_offset 14, -4
+  44:Core/Src/system.c ****     // Обновление регулятора
+  45:Core/Src/system.c ****     system_instance.controller_output = 
+ 151              		.loc 1 45 5 view .LVU26
+  46:Core/Src/system.c ****         PI_Controller_Update(&system_instance.controller,
+ 152              		.loc 1 46 9 is_stmt 0 view .LVU27
+ 153 0002 054C     		ldr	r4, .L7
+ 154 0004 E26D     		ldr	r2, [r4, #92]	@ float
+ 155 0006 216D     		ldr	r1, [r4, #80]	@ float
+ 156 0008 2046     		mov	r0, r4
+ 157 000a FFF7FEFF 		bl	PI_Controller_Update
+ 158              	.LVL5:
+  45:Core/Src/system.c ****         PI_Controller_Update(&system_instance.controller,
+ 159              		.loc 1 45 39 view .LVU28
+ 160 000e 6065     		str	r0, [r4, #84]	@ float
+  47:Core/Src/system.c ****                            system_instance.setpoint,
+  48:Core/Src/system.c ****                            system_instance.motor_output);
+  49:Core/Src/system.c ****     
+  50:Core/Src/system.c ****     system_instance.controller_updated = true;
+ 161              		.loc 1 50 5 is_stmt 1 view .LVU29
+ 162              		.loc 1 50 40 is_stmt 0 view .LVU30
+ 163 0010 0123     		movs	r3, #1
+ 164 0012 84F86030 		strb	r3, [r4, #96]
+  51:Core/Src/system.c **** }
+ 165              		.loc 1 51 1 view .LVU31
+ 166 0016 10BD     		pop	{r4, pc}
+ 167              	.L8:
+ 168              		.align	2
+ 169              	.L7:
+ 170 0018 00000000 		.word	system_instance
+ 171              		.cfi_endproc
+ 172              	.LFE1:
+ 174              		.section	.text.System_FilterUpdate,"ax",%progbits
+ 175              		.align	1
+ 176              		.global	System_FilterUpdate
+ 177              		.syntax unified
+ 178              		.thumb
+ 179              		.thumb_func
+ 181              	System_FilterUpdate:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 5
+
+
+ 182              	.LFB2:
+  52:Core/Src/system.c **** 
+  53:Core/Src/system.c **** // Вызывается из прерывания таймера фильтра (10 кГц)
+  54:Core/Src/system.c **** void System_FilterUpdate(void)
+  55:Core/Src/system.c **** {
+ 183              		.loc 1 55 1 is_stmt 1 view -0
+ 184              		.cfi_startproc
+ 185              		@ args = 0, pretend = 0, frame = 0
+ 186              		@ frame_needed = 0, uses_anonymous_args = 0
+ 187 0000 10B5     		push	{r4, lr}
+ 188              	.LCFI4:
+ 189              		.cfi_def_cfa_offset 8
+ 190              		.cfi_offset 4, -8
+ 191              		.cfi_offset 14, -4
+  56:Core/Src/system.c ****     // Обновление фильтра
+  57:Core/Src/system.c ****     system_instance.filter_output = 
+ 192              		.loc 1 57 5 view .LVU33
+  58:Core/Src/system.c ****         Filter_Update(&system_instance.filter,
+ 193              		.loc 1 58 9 is_stmt 0 view .LVU34
+ 194 0002 054C     		ldr	r4, .L11
+ 195 0004 616D     		ldr	r1, [r4, #84]	@ float
+ 196 0006 04F12400 		add	r0, r4, #36
+ 197 000a FFF7FEFF 		bl	Filter_Update
+ 198              	.LVL6:
+  57:Core/Src/system.c ****         Filter_Update(&system_instance.filter,
+ 199              		.loc 1 57 35 view .LVU35
+ 200 000e A065     		str	r0, [r4, #88]	@ float
+  59:Core/Src/system.c ****                      system_instance.controller_output);
+  60:Core/Src/system.c ****     
+  61:Core/Src/system.c ****     system_instance.filter_updated = true;
+ 201              		.loc 1 61 5 is_stmt 1 view .LVU36
+ 202              		.loc 1 61 36 is_stmt 0 view .LVU37
+ 203 0010 0123     		movs	r3, #1
+ 204 0012 84F86130 		strb	r3, [r4, #97]
+  62:Core/Src/system.c **** }
+ 205              		.loc 1 62 1 view .LVU38
+ 206 0016 10BD     		pop	{r4, pc}
+ 207              	.L12:
+ 208              		.align	2
+ 209              	.L11:
+ 210 0018 00000000 		.word	system_instance
+ 211              		.cfi_endproc
+ 212              	.LFE2:
+ 214              		.global	__aeabi_fadd
+ 215              		.section	.text.System_MotorUpdate,"ax",%progbits
+ 216              		.align	1
+ 217              		.global	System_MotorUpdate
+ 218              		.syntax unified
+ 219              		.thumb
+ 220              		.thumb_func
+ 222              	System_MotorUpdate:
+ 223              	.LFB3:
+  63:Core/Src/system.c **** 
+  64:Core/Src/system.c **** // ВЫЗЫВАЕТСЯ ИЗ ПРЕРЫВАНИЯ ТАЙМЕРА ДВИГАТЕЛЯ (5 кГц)
+  65:Core/Src/system.c **** 
+  66:Core/Src/system.c **** void System_MotorUpdate(void)
+  67:Core/Src/system.c **** {
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 6
+
+
+ 224              		.loc 1 67 1 is_stmt 1 view -0
+ 225              		.cfi_startproc
+ 226              		@ args = 0, pretend = 0, frame = 0
+ 227              		@ frame_needed = 0, uses_anonymous_args = 0
+ 228 0000 70B5     		push	{r4, r5, r6, lr}
+ 229              	.LCFI5:
+ 230              		.cfi_def_cfa_offset 16
+ 231              		.cfi_offset 4, -16
+ 232              		.cfi_offset 5, -12
+ 233              		.cfi_offset 6, -8
+ 234              		.cfi_offset 14, -4
+  68:Core/Src/system.c ****     static uint32_t sample_counter = 0;
+ 235              		.loc 1 68 5 view .LVU40
+  69:Core/Src/system.c ****     const uint32_t sample_divider = 75; // Записываем каждую N точку
+ 236              		.loc 1 69 5 view .LVU41
+ 237              	.LVL7:
+  70:Core/Src/system.c ****     
+  71:Core/Src/system.c ****     // Обновление модели двигателя
+  72:Core/Src/system.c ****     system_instance.motor_output = 
+ 238              		.loc 1 72 5 view .LVU42
+  73:Core/Src/system.c ****         Motor_Update(&system_instance.motor,
+ 239              		.loc 1 73 9 is_stmt 0 view .LVU43
+ 240 0002 1D4C     		ldr	r4, .L17
+ 241 0004 A16D     		ldr	r1, [r4, #88]	@ float
+ 242 0006 04F13C00 		add	r0, r4, #60
+ 243 000a FFF7FEFF 		bl	Motor_Update
+ 244              	.LVL8:
+ 245 000e 0546     		mov	r5, r0
+  72:Core/Src/system.c ****         Motor_Update(&system_instance.motor,
+ 246              		.loc 1 72 34 view .LVU44
+ 247 0010 E065     		str	r0, [r4, #92]	@ float
+  74:Core/Src/system.c ****                     system_instance.filter_output);
+  75:Core/Src/system.c ****     
+  76:Core/Src/system.c ****     // Увеличиваем время на период двигателя
+  77:Core/Src/system.c ****     system_time += MOTOR_TS;
+ 248              		.loc 1 77 5 is_stmt 1 view .LVU45
+ 249              		.loc 1 77 17 is_stmt 0 view .LVU46
+ 250 0012 1A4E     		ldr	r6, .L17+4
+ 251 0014 1A49     		ldr	r1, .L17+8
+ 252 0016 3068     		ldr	r0, [r6]	@ float
+ 253 0018 FFF7FEFF 		bl	__aeabi_fadd
+ 254              	.LVL9:
+ 255 001c 3060     		str	r0, [r6]	@ float
+  78:Core/Src/system.c ****     
+  79:Core/Src/system.c ****     system_instance.motor_updated = true;
+ 256              		.loc 1 79 5 is_stmt 1 view .LVU47
+ 257              		.loc 1 79 35 is_stmt 0 view .LVU48
+ 258 001e 0123     		movs	r3, #1
+ 259 0020 84F86230 		strb	r3, [r4, #98]
+  80:Core/Src/system.c ****     
+  81:Core/Src/system.c ****     // Запись в буфер (если включена запись)
+  82:Core/Src/system.c ****     if (system_instance.recording)
+ 260              		.loc 1 82 5 is_stmt 1 view .LVU49
+ 261              		.loc 1 82 24 is_stmt 0 view .LVU50
+ 262 0024 04F50054 		add	r4, r4, #8192
+ 263 0028 94F8483F 		ldrb	r3, [r4, #3912]	@ zero_extendqisi2
+ 264              		.loc 1 82 8 view .LVU51
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 7
+
+
+ 265 002c EBB1     		cbz	r3, .L13
+  83:Core/Src/system.c ****     {
+  84:Core/Src/system.c ****         sample_counter++;
+ 266              		.loc 1 84 9 is_stmt 1 view .LVU52
+ 267              		.loc 1 84 23 is_stmt 0 view .LVU53
+ 268 002e 154A     		ldr	r2, .L17+12
+ 269 0030 1368     		ldr	r3, [r2]
+ 270 0032 0133     		adds	r3, r3, #1
+ 271 0034 1360     		str	r3, [r2]
+  85:Core/Src/system.c ****         
+  86:Core/Src/system.c ****         // Записываем каждый N-ый вызов
+  87:Core/Src/system.c ****         if (sample_counter >= sample_divider)
+ 272              		.loc 1 87 9 is_stmt 1 view .LVU54
+ 273              		.loc 1 87 12 is_stmt 0 view .LVU55
+ 274 0036 4A2B     		cmp	r3, #74
+ 275 0038 17D9     		bls	.L13
+  88:Core/Src/system.c ****         {
+  89:Core/Src/system.c ****             sample_counter = 0;
+ 276              		.loc 1 89 13 is_stmt 1 view .LVU56
+ 277              		.loc 1 89 28 is_stmt 0 view .LVU57
+ 278 003a 1346     		mov	r3, r2
+ 279 003c 0022     		movs	r2, #0
+ 280 003e 1A60     		str	r2, [r3]
+  90:Core/Src/system.c ****             
+  91:Core/Src/system.c ****             if (system_instance.buffer_index < BUFFER_SIZE)
+ 281              		.loc 1 91 13 is_stmt 1 view .LVU58
+ 282              		.loc 1 91 32 is_stmt 0 view .LVU59
+ 283 0040 D4F8443F 		ldr	r3, [r4, #3908]
+ 284              		.loc 1 91 16 view .LVU60
+ 285 0044 40F2DB52 		movw	r2, #1499
+ 286 0048 9342     		cmp	r3, r2
+ 287 004a 0FD8     		bhi	.L15
+  92:Core/Src/system.c ****             {
+  93:Core/Src/system.c ****                 system_instance.time_buffer[system_instance.buffer_index] = system_time;
+ 288              		.loc 1 93 17 is_stmt 1 view .LVU61
+ 289              		.loc 1 93 75 is_stmt 0 view .LVU62
+ 290 004c A4F50052 		sub	r2, r4, #8192
+ 291 0050 03F11801 		add	r1, r3, #24
+ 292 0054 02EB8101 		add	r1, r2, r1, lsl #2
+ 293 0058 4860     		str	r0, [r1, #4]	@ float
+  94:Core/Src/system.c ****                 system_instance.value_buffer[system_instance.buffer_index] = system_instance.motor_
+ 294              		.loc 1 94 17 is_stmt 1 view .LVU63
+ 295              		.loc 1 94 76 is_stmt 0 view .LVU64
+ 296 005a 03F2F451 		addw	r1, r3, #1524
+ 297 005e 02EB8101 		add	r1, r2, r1, lsl #2
+ 298 0062 4D60     		str	r5, [r1, #4]	@ float
+  95:Core/Src/system.c ****                 system_instance.buffer_index++;
+ 299              		.loc 1 95 17 is_stmt 1 view .LVU65
+ 300              		.loc 1 95 45 is_stmt 0 view .LVU66
+ 301 0064 0133     		adds	r3, r3, #1
+ 302 0066 C4F8443F 		str	r3, [r4, #3908]
+ 303              	.L13:
+  96:Core/Src/system.c ****             }
+  97:Core/Src/system.c ****             else
+  98:Core/Src/system.c ****             {
+  99:Core/Src/system.c ****                 // Буфер полон - автоматически останавливаем з
+ 100:Core/Src/system.c ****                 system_instance.recording = false;
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 8
+
+
+ 101:Core/Src/system.c ****             }
+ 102:Core/Src/system.c ****         }
+ 103:Core/Src/system.c ****     }
+ 104:Core/Src/system.c **** }
+ 304              		.loc 1 104 1 view .LVU67
+ 305 006a 70BD     		pop	{r4, r5, r6, pc}
+ 306              	.L15:
+ 100:Core/Src/system.c ****             }
+ 307              		.loc 1 100 17 is_stmt 1 view .LVU68
+ 100:Core/Src/system.c ****             }
+ 308              		.loc 1 100 43 is_stmt 0 view .LVU69
+ 309 006c 064B     		ldr	r3, .L17+16
+ 310 006e 0022     		movs	r2, #0
+ 311 0070 83F8482F 		strb	r2, [r3, #3912]
+ 312              		.loc 1 104 1 view .LVU70
+ 313 0074 F9E7     		b	.L13
+ 314              	.L18:
+ 315 0076 00BF     		.align	2
+ 316              	.L17:
+ 317 0078 00000000 		.word	system_instance
+ 318 007c 00000000 		.word	system_time
+ 319 0080 17B75139 		.word	961656599
+ 320 0084 00000000 		.word	sample_counter.0
+ 321 0088 00200000 		.word	system_instance+8192
+ 322              		.cfi_endproc
+ 323              	.LFE3:
+ 325              		.section	.text.System_GetInstance,"ax",%progbits
+ 326              		.align	1
+ 327              		.global	System_GetInstance
+ 328              		.syntax unified
+ 329              		.thumb
+ 330              		.thumb_func
+ 332              	System_GetInstance:
+ 333              	.LFB4:
+ 105:Core/Src/system.c **** 
+ 106:Core/Src/system.c **** ControlSystem* System_GetInstance(void)
+ 107:Core/Src/system.c **** {
+ 334              		.loc 1 107 1 is_stmt 1 view -0
+ 335              		.cfi_startproc
+ 336              		@ args = 0, pretend = 0, frame = 0
+ 337              		@ frame_needed = 0, uses_anonymous_args = 0
+ 338              		@ link register save eliminated.
+ 108:Core/Src/system.c ****     return &system_instance;
+ 339              		.loc 1 108 5 view .LVU72
+ 109:Core/Src/system.c **** }
+ 340              		.loc 1 109 1 is_stmt 0 view .LVU73
+ 341 0000 0048     		ldr	r0, .L20
+ 342 0002 7047     		bx	lr
+ 343              	.L21:
+ 344              		.align	2
+ 345              	.L20:
+ 346 0004 00000000 		.word	system_instance
+ 347              		.cfi_endproc
+ 348              	.LFE4:
+ 350              		.section	.text.System_SetSetpoint,"ax",%progbits
+ 351              		.align	1
+ 352              		.global	System_SetSetpoint
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 9
+
+
+ 353              		.syntax unified
+ 354              		.thumb
+ 355              		.thumb_func
+ 357              	System_SetSetpoint:
+ 358              	.LVL10:
+ 359              	.LFB5:
+ 110:Core/Src/system.c **** 
+ 111:Core/Src/system.c **** void System_SetSetpoint(float setpoint)
+ 112:Core/Src/system.c **** {
+ 360              		.loc 1 112 1 is_stmt 1 view -0
+ 361              		.cfi_startproc
+ 362              		@ args = 0, pretend = 0, frame = 0
+ 363              		@ frame_needed = 0, uses_anonymous_args = 0
+ 364              		@ link register save eliminated.
+ 113:Core/Src/system.c ****     system_instance.setpoint = setpoint;
+ 365              		.loc 1 113 5 view .LVU75
+ 366              		.loc 1 113 30 is_stmt 0 view .LVU76
+ 367 0000 014B     		ldr	r3, .L23
+ 368 0002 1865     		str	r0, [r3, #80]	@ float
+ 114:Core/Src/system.c **** }
+ 369              		.loc 1 114 1 view .LVU77
+ 370 0004 7047     		bx	lr
+ 371              	.L24:
+ 372 0006 00BF     		.align	2
+ 373              	.L23:
+ 374 0008 00000000 		.word	system_instance
+ 375              		.cfi_endproc
+ 376              	.LFE5:
+ 378              		.section	.text.System_GetControllerOutput,"ax",%progbits
+ 379              		.align	1
+ 380              		.global	System_GetControllerOutput
+ 381              		.syntax unified
+ 382              		.thumb
+ 383              		.thumb_func
+ 385              	System_GetControllerOutput:
+ 386              	.LFB6:
+ 115:Core/Src/system.c **** 
+ 116:Core/Src/system.c **** float System_GetControllerOutput(void)
+ 117:Core/Src/system.c **** {
+ 387              		.loc 1 117 1 is_stmt 1 view -0
+ 388              		.cfi_startproc
+ 389              		@ args = 0, pretend = 0, frame = 0
+ 390              		@ frame_needed = 0, uses_anonymous_args = 0
+ 391              		@ link register save eliminated.
+ 118:Core/Src/system.c ****     return system_instance.controller_output;
+ 392              		.loc 1 118 5 view .LVU79
+ 119:Core/Src/system.c **** }
+ 393              		.loc 1 119 1 is_stmt 0 view .LVU80
+ 394 0000 014B     		ldr	r3, .L26
+ 395 0002 586D     		ldr	r0, [r3, #84]	@ float
+ 396 0004 7047     		bx	lr
+ 397              	.L27:
+ 398 0006 00BF     		.align	2
+ 399              	.L26:
+ 400 0008 00000000 		.word	system_instance
+ 401              		.cfi_endproc
+ 402              	.LFE6:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 10
+
+
+ 404              		.section	.text.System_GetFilterOutput,"ax",%progbits
+ 405              		.align	1
+ 406              		.global	System_GetFilterOutput
+ 407              		.syntax unified
+ 408              		.thumb
+ 409              		.thumb_func
+ 411              	System_GetFilterOutput:
+ 412              	.LFB7:
+ 120:Core/Src/system.c **** 
+ 121:Core/Src/system.c **** float System_GetFilterOutput(void)
+ 122:Core/Src/system.c **** {
+ 413              		.loc 1 122 1 is_stmt 1 view -0
+ 414              		.cfi_startproc
+ 415              		@ args = 0, pretend = 0, frame = 0
+ 416              		@ frame_needed = 0, uses_anonymous_args = 0
+ 417              		@ link register save eliminated.
+ 123:Core/Src/system.c ****     return system_instance.filter_output;
+ 418              		.loc 1 123 5 view .LVU82
+ 124:Core/Src/system.c **** }
+ 419              		.loc 1 124 1 is_stmt 0 view .LVU83
+ 420 0000 014B     		ldr	r3, .L29
+ 421 0002 986D     		ldr	r0, [r3, #88]	@ float
+ 422 0004 7047     		bx	lr
+ 423              	.L30:
+ 424 0006 00BF     		.align	2
+ 425              	.L29:
+ 426 0008 00000000 		.word	system_instance
+ 427              		.cfi_endproc
+ 428              	.LFE7:
+ 430              		.section	.text.System_GetMotorOutput,"ax",%progbits
+ 431              		.align	1
+ 432              		.global	System_GetMotorOutput
+ 433              		.syntax unified
+ 434              		.thumb
+ 435              		.thumb_func
+ 437              	System_GetMotorOutput:
+ 438              	.LFB8:
+ 125:Core/Src/system.c **** 
+ 126:Core/Src/system.c **** float System_GetMotorOutput(void)
+ 127:Core/Src/system.c **** {
+ 439              		.loc 1 127 1 is_stmt 1 view -0
+ 440              		.cfi_startproc
+ 441              		@ args = 0, pretend = 0, frame = 0
+ 442              		@ frame_needed = 0, uses_anonymous_args = 0
+ 443              		@ link register save eliminated.
+ 128:Core/Src/system.c ****     return system_instance.motor_output;
+ 444              		.loc 1 128 5 view .LVU85
+ 129:Core/Src/system.c **** }
+ 445              		.loc 1 129 1 is_stmt 0 view .LVU86
+ 446 0000 014B     		ldr	r3, .L32
+ 447 0002 D86D     		ldr	r0, [r3, #92]	@ float
+ 448 0004 7047     		bx	lr
+ 449              	.L33:
+ 450 0006 00BF     		.align	2
+ 451              	.L32:
+ 452 0008 00000000 		.word	system_instance
+ 453              		.cfi_endproc
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 11
+
+
+ 454              	.LFE8:
+ 456              		.section	.text.System_StartRecording,"ax",%progbits
+ 457              		.align	1
+ 458              		.global	System_StartRecording
+ 459              		.syntax unified
+ 460              		.thumb
+ 461              		.thumb_func
+ 463              	System_StartRecording:
+ 464              	.LFB9:
+ 130:Core/Src/system.c **** 
+ 131:Core/Src/system.c **** // ========== ФУНКЦИИ ДЛЯ БУФЕРА ==========
+ 132:Core/Src/system.c **** 
+ 133:Core/Src/system.c **** // Начать запись
+ 134:Core/Src/system.c **** void System_StartRecording(void)
+ 135:Core/Src/system.c **** {
+ 465              		.loc 1 135 1 is_stmt 1 view -0
+ 466              		.cfi_startproc
+ 467              		@ args = 0, pretend = 0, frame = 0
+ 468              		@ frame_needed = 0, uses_anonymous_args = 0
+ 469              		@ link register save eliminated.
+ 136:Core/Src/system.c ****     system_instance.recording = true;
+ 470              		.loc 1 136 5 view .LVU88
+ 471              		.loc 1 136 31 is_stmt 0 view .LVU89
+ 472 0000 024B     		ldr	r3, .L35
+ 473 0002 0122     		movs	r2, #1
+ 474 0004 83F8482F 		strb	r2, [r3, #3912]
+ 137:Core/Src/system.c **** }
+ 475              		.loc 1 137 1 view .LVU90
+ 476 0008 7047     		bx	lr
+ 477              	.L36:
+ 478 000a 00BF     		.align	2
+ 479              	.L35:
+ 480 000c 00200000 		.word	system_instance+8192
+ 481              		.cfi_endproc
+ 482              	.LFE9:
+ 484              		.section	.text.System_StopRecording,"ax",%progbits
+ 485              		.align	1
+ 486              		.global	System_StopRecording
+ 487              		.syntax unified
+ 488              		.thumb
+ 489              		.thumb_func
+ 491              	System_StopRecording:
+ 492              	.LFB10:
+ 138:Core/Src/system.c **** 
+ 139:Core/Src/system.c **** // Остановить запись
+ 140:Core/Src/system.c **** void System_StopRecording(void)
+ 141:Core/Src/system.c **** {
+ 493              		.loc 1 141 1 is_stmt 1 view -0
+ 494              		.cfi_startproc
+ 495              		@ args = 0, pretend = 0, frame = 0
+ 496              		@ frame_needed = 0, uses_anonymous_args = 0
+ 497              		@ link register save eliminated.
+ 142:Core/Src/system.c ****     system_instance.recording = false;
+ 498              		.loc 1 142 5 view .LVU92
+ 499              		.loc 1 142 31 is_stmt 0 view .LVU93
+ 500 0000 024B     		ldr	r3, .L38
+ 501 0002 0022     		movs	r2, #0
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 12
+
+
+ 502 0004 83F8482F 		strb	r2, [r3, #3912]
+ 143:Core/Src/system.c **** }
+ 503              		.loc 1 143 1 view .LVU94
+ 504 0008 7047     		bx	lr
+ 505              	.L39:
+ 506 000a 00BF     		.align	2
+ 507              	.L38:
+ 508 000c 00200000 		.word	system_instance+8192
+ 509              		.cfi_endproc
+ 510              	.LFE10:
+ 512              		.section	.text.System_ClearBuffer,"ax",%progbits
+ 513              		.align	1
+ 514              		.global	System_ClearBuffer
+ 515              		.syntax unified
+ 516              		.thumb
+ 517              		.thumb_func
+ 519              	System_ClearBuffer:
+ 520              	.LFB11:
+ 144:Core/Src/system.c **** 
+ 145:Core/Src/system.c **** // Очистить буфер
+ 146:Core/Src/system.c **** void System_ClearBuffer(void)
+ 147:Core/Src/system.c **** {
+ 521              		.loc 1 147 1 is_stmt 1 view -0
+ 522              		.cfi_startproc
+ 523              		@ args = 0, pretend = 0, frame = 0
+ 524              		@ frame_needed = 0, uses_anonymous_args = 0
+ 525 0000 38B5     		push	{r3, r4, r5, lr}
+ 526              	.LCFI6:
+ 527              		.cfi_def_cfa_offset 16
+ 528              		.cfi_offset 3, -16
+ 529              		.cfi_offset 4, -12
+ 530              		.cfi_offset 5, -8
+ 531              		.cfi_offset 14, -4
+ 148:Core/Src/system.c ****     system_instance.buffer_index = 0;
+ 532              		.loc 1 148 5 view .LVU96
+ 533              		.loc 1 148 34 is_stmt 0 view .LVU97
+ 534 0002 0C48     		ldr	r0, .L42
+ 535 0004 00F50053 		add	r3, r0, #8192
+ 536 0008 0024     		movs	r4, #0
+ 537 000a C3F8444F 		str	r4, [r3, #3908]
+ 149:Core/Src/system.c ****     system_instance.recording = false;
+ 538              		.loc 1 149 5 is_stmt 1 view .LVU98
+ 539              		.loc 1 149 31 is_stmt 0 view .LVU99
+ 540 000e 83F8484F 		strb	r4, [r3, #3912]
+ 150:Core/Src/system.c ****     memset(system_instance.time_buffer, 0, sizeof(system_instance.time_buffer));
+ 541              		.loc 1 150 5 is_stmt 1 view .LVU100
+ 542 0012 41F27075 		movw	r5, #6000
+ 543 0016 2A46     		mov	r2, r5
+ 544 0018 2146     		mov	r1, r4
+ 545 001a 6430     		adds	r0, r0, #100
+ 546 001c FFF7FEFF 		bl	memset
+ 547              	.LVL11:
+ 151:Core/Src/system.c ****     memset(system_instance.value_buffer, 0, sizeof(system_instance.value_buffer));
+ 548              		.loc 1 151 5 view .LVU101
+ 549 0020 2A46     		mov	r2, r5
+ 550 0022 2146     		mov	r1, r4
+ 551 0024 0448     		ldr	r0, .L42+4
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 13
+
+
+ 552 0026 FFF7FEFF 		bl	memset
+ 553              	.LVL12:
+ 152:Core/Src/system.c ****     system_time = 0.0f;
+ 554              		.loc 1 152 5 view .LVU102
+ 555              		.loc 1 152 17 is_stmt 0 view .LVU103
+ 556 002a 044B     		ldr	r3, .L42+8
+ 557 002c 0022     		movs	r2, #0
+ 558 002e 1A60     		str	r2, [r3]	@ float
+ 153:Core/Src/system.c **** }
+ 559              		.loc 1 153 1 view .LVU104
+ 560 0030 38BD     		pop	{r3, r4, r5, pc}
+ 561              	.L43:
+ 562 0032 00BF     		.align	2
+ 563              	.L42:
+ 564 0034 00000000 		.word	system_instance
+ 565 0038 D4170000 		.word	system_instance+6100
+ 566 003c 00000000 		.word	system_time
+ 567              		.cfi_endproc
+ 568              	.LFE11:
+ 570              		.section	.text.System_GetTimeBuffer,"ax",%progbits
+ 571              		.align	1
+ 572              		.global	System_GetTimeBuffer
+ 573              		.syntax unified
+ 574              		.thumb
+ 575              		.thumb_func
+ 577              	System_GetTimeBuffer:
+ 578              	.LFB12:
+ 154:Core/Src/system.c **** 
+ 155:Core/Src/system.c **** // Получить указатель на массив времени
+ 156:Core/Src/system.c **** float* System_GetTimeBuffer(void)
+ 157:Core/Src/system.c **** {
+ 579              		.loc 1 157 1 is_stmt 1 view -0
+ 580              		.cfi_startproc
+ 581              		@ args = 0, pretend = 0, frame = 0
+ 582              		@ frame_needed = 0, uses_anonymous_args = 0
+ 583              		@ link register save eliminated.
+ 158:Core/Src/system.c ****     return system_instance.time_buffer;
+ 584              		.loc 1 158 5 view .LVU106
+ 159:Core/Src/system.c **** }
+ 585              		.loc 1 159 1 is_stmt 0 view .LVU107
+ 586 0000 0048     		ldr	r0, .L45
+ 587 0002 7047     		bx	lr
+ 588              	.L46:
+ 589              		.align	2
+ 590              	.L45:
+ 591 0004 64000000 		.word	system_instance+100
+ 592              		.cfi_endproc
+ 593              	.LFE12:
+ 595              		.section	.text.System_GetValueBuffer,"ax",%progbits
+ 596              		.align	1
+ 597              		.global	System_GetValueBuffer
+ 598              		.syntax unified
+ 599              		.thumb
+ 600              		.thumb_func
+ 602              	System_GetValueBuffer:
+ 603              	.LFB13:
+ 160:Core/Src/system.c **** 
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 14
+
+
+ 161:Core/Src/system.c **** // Получить указатель на массив значений
+ 162:Core/Src/system.c **** float* System_GetValueBuffer(void)
+ 163:Core/Src/system.c **** {
+ 604              		.loc 1 163 1 is_stmt 1 view -0
+ 605              		.cfi_startproc
+ 606              		@ args = 0, pretend = 0, frame = 0
+ 607              		@ frame_needed = 0, uses_anonymous_args = 0
+ 608              		@ link register save eliminated.
+ 164:Core/Src/system.c ****     return system_instance.value_buffer;
+ 609              		.loc 1 164 5 view .LVU109
+ 165:Core/Src/system.c **** }
+ 610              		.loc 1 165 1 is_stmt 0 view .LVU110
+ 611 0000 0048     		ldr	r0, .L48
+ 612 0002 7047     		bx	lr
+ 613              	.L49:
+ 614              		.align	2
+ 615              	.L48:
+ 616 0004 D4170000 		.word	system_instance+6100
+ 617              		.cfi_endproc
+ 618              	.LFE13:
+ 620              		.section	.text.System_GetBufferIndex,"ax",%progbits
+ 621              		.align	1
+ 622              		.global	System_GetBufferIndex
+ 623              		.syntax unified
+ 624              		.thumb
+ 625              		.thumb_func
+ 627              	System_GetBufferIndex:
+ 628              	.LFB14:
+ 166:Core/Src/system.c **** 
+ 167:Core/Src/system.c **** // Получить текущий индекс (сколько точек записано)
+ 168:Core/Src/system.c **** uint32_t System_GetBufferIndex(void)
+ 169:Core/Src/system.c **** {
+ 629              		.loc 1 169 1 is_stmt 1 view -0
+ 630              		.cfi_startproc
+ 631              		@ args = 0, pretend = 0, frame = 0
+ 632              		@ frame_needed = 0, uses_anonymous_args = 0
+ 633              		@ link register save eliminated.
+ 170:Core/Src/system.c ****     return system_instance.buffer_index;
+ 634              		.loc 1 170 5 view .LVU112
+ 171:Core/Src/system.c **** }...
+ 635              		.loc 1 171 1 is_stmt 0 view .LVU113
+ 636 0000 014B     		ldr	r3, .L51
+ 637 0002 D3F8440F 		ldr	r0, [r3, #3908]
+ 638 0006 7047     		bx	lr
+ 639              	.L52:
+ 640              		.align	2
+ 641              	.L51:
+ 642 0008 00200000 		.word	system_instance+8192
+ 643              		.cfi_endproc
+ 644              	.LFE14:
+ 646              		.section	.bss.sample_counter.0,"aw",%nobits
+ 647              		.align	2
+ 650              	sample_counter.0:
+ 651 0000 00000000 		.space	4
+ 652              		.section	.bss.system_time,"aw",%nobits
+ 653              		.align	2
+ 656              	system_time:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 15
+
+
+ 657 0000 00000000 		.space	4
+ 658              		.section	.bss.system_instance,"aw",%nobits
+ 659              		.align	2
+ 662              	system_instance:
+ 663 0000 00000000 		.space	12108
+ 663      00000000 
+ 663      00000000 
+ 663      00000000 
+ 663      00000000 
+ 664              		.text
+ 665              	.Letext0:
+ 666              		.file 2 "D:/Programs/Education/STM32/Tools/Xpack/arm-none-eabi/include/machine/_default_types.h"
+ 667              		.file 3 "D:/Programs/Education/STM32/Tools/Xpack/arm-none-eabi/include/sys/_stdint.h"
+ 668              		.file 4 "Core/Inc/controller.h"
+ 669              		.file 5 "Core/Inc/filter.h"
+ 670              		.file 6 "Core/Inc/motor.h"
+ 671              		.file 7 "Core/Inc/system.h"
+ 672              		.file 8 "D:/Programs/Education/STM32/Tools/Xpack/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h"
+ 673              		.file 9 "D:/Programs/Education/STM32/Tools/Xpack/arm-none-eabi/include/string.h"
+ 674              		.file 10 "<built-in>"
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 16
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 system.c
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:19     .text.System_Init:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:25     .text.System_Init:00000000 System_Init
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:120    .text.System_Init:00000080 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:662    .bss.system_instance:00000000 system_instance
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:134    .text.System_ControllerUpdate:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:140    .text.System_ControllerUpdate:00000000 System_ControllerUpdate
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:170    .text.System_ControllerUpdate:00000018 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:175    .text.System_FilterUpdate:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:181    .text.System_FilterUpdate:00000000 System_FilterUpdate
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:210    .text.System_FilterUpdate:00000018 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:216    .text.System_MotorUpdate:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:222    .text.System_MotorUpdate:00000000 System_MotorUpdate
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:317    .text.System_MotorUpdate:00000078 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:656    .bss.system_time:00000000 system_time
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:650    .bss.sample_counter.0:00000000 sample_counter.0
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:326    .text.System_GetInstance:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:332    .text.System_GetInstance:00000000 System_GetInstance
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:346    .text.System_GetInstance:00000004 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:351    .text.System_SetSetpoint:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:357    .text.System_SetSetpoint:00000000 System_SetSetpoint
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:374    .text.System_SetSetpoint:00000008 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:379    .text.System_GetControllerOutput:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:385    .text.System_GetControllerOutput:00000000 System_GetControllerOutput
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:400    .text.System_GetControllerOutput:00000008 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:405    .text.System_GetFilterOutput:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:411    .text.System_GetFilterOutput:00000000 System_GetFilterOutput
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:426    .text.System_GetFilterOutput:00000008 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:431    .text.System_GetMotorOutput:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:437    .text.System_GetMotorOutput:00000000 System_GetMotorOutput
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:452    .text.System_GetMotorOutput:00000008 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:457    .text.System_StartRecording:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:463    .text.System_StartRecording:00000000 System_StartRecording
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:480    .text.System_StartRecording:0000000c $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:485    .text.System_StopRecording:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:491    .text.System_StopRecording:00000000 System_StopRecording
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:508    .text.System_StopRecording:0000000c $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:513    .text.System_ClearBuffer:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:519    .text.System_ClearBuffer:00000000 System_ClearBuffer
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:564    .text.System_ClearBuffer:00000034 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:571    .text.System_GetTimeBuffer:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:577    .text.System_GetTimeBuffer:00000000 System_GetTimeBuffer
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:591    .text.System_GetTimeBuffer:00000004 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:596    .text.System_GetValueBuffer:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:602    .text.System_GetValueBuffer:00000000 System_GetValueBuffer
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:616    .text.System_GetValueBuffer:00000004 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:621    .text.System_GetBufferIndex:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:627    .text.System_GetBufferIndex:00000000 System_GetBufferIndex
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:642    .text.System_GetBufferIndex:00000008 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:647    .bss.sample_counter.0:00000000 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:653    .bss.system_time:00000000 $d
+C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s:659    .bss.system_instance:00000000 $d
+
+UNDEFINED SYMBOLS
+PI_Controller_Init
+Filter_Init
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccn0wl3v.s 			page 17
+
+
+Motor_Init
+memset
+PI_Controller_Update
+Filter_Update
+__aeabi_fadd
+Motor_Update

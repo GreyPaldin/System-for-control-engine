@@ -1,0 +1,366 @@
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"filter.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/filter.c"
+  18              		.section	.text.Filter_Reset,"ax",%progbits
+  19              		.align	1
+  20              		.global	Filter_Reset
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  25              	Filter_Reset:
+  26              	.LVL0:
+  27              	.LFB1:
+   1:Core/Src/filter.c **** #include "filter.h"
+   2:Core/Src/filter.c **** #include <math.h>
+   3:Core/Src/filter.c **** 
+   4:Core/Src/filter.c **** void Filter_Init(FirstOrderFilter *filter, float T1, float Ts, float K)
+   5:Core/Src/filter.c **** {
+   6:Core/Src/filter.c ****     filter->K = K;
+   7:Core/Src/filter.c ****     filter->T1 = T1;
+   8:Core/Src/filter.c ****     filter->Ts = Ts;
+   9:Core/Src/filter.c ****     
+  10:Core/Src/filter.c ****     // Расчет коэффициента фильтрации
+  11:Core/Src/filter.c ****     if (T1 > 0) {
+  12:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  13:Core/Src/filter.c ****     } else {
+  14:Core/Src/filter.c ****         filter->alpha = 0; // При T1=0 фильтр не работает
+  15:Core/Src/filter.c ****     }
+  16:Core/Src/filter.c ****     
+  17:Core/Src/filter.c ****     Filter_Reset(filter);
+  18:Core/Src/filter.c **** }
+  19:Core/Src/filter.c **** 
+  20:Core/Src/filter.c **** void Filter_Reset(FirstOrderFilter *filter)
+  21:Core/Src/filter.c **** {
+  28              		.loc 1 21 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  22:Core/Src/filter.c ****     filter->y_prev = 0.0f;
+  33              		.loc 1 22 5 view .LVU1
+  34              		.loc 1 22 20 is_stmt 0 view .LVU2
+  35 0000 0023     		movs	r3, #0
+  36 0002 0361     		str	r3, [r0, #16]	@ float
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 2
+
+
+  23:Core/Src/filter.c ****     filter->output = 0.0f;
+  37              		.loc 1 23 5 is_stmt 1 view .LVU3
+  38              		.loc 1 23 20 is_stmt 0 view .LVU4
+  39 0004 4361     		str	r3, [r0, #20]	@ float
+  24:Core/Src/filter.c **** }
+  40              		.loc 1 24 1 view .LVU5
+  41 0006 7047     		bx	lr
+  42              		.cfi_endproc
+  43              	.LFE1:
+  45              		.global	__aeabi_fcmpgt
+  46              		.global	__aeabi_fdiv
+  47              		.section	.text.Filter_Init,"ax",%progbits
+  48              		.align	1
+  49              		.global	Filter_Init
+  50              		.syntax unified
+  51              		.thumb
+  52              		.thumb_func
+  54              	Filter_Init:
+  55              	.LVL1:
+  56              	.LFB0:
+   5:Core/Src/filter.c ****     filter->K = K;
+  57              		.loc 1 5 1 is_stmt 1 view -0
+  58              		.cfi_startproc
+  59              		@ args = 0, pretend = 0, frame = 0
+  60              		@ frame_needed = 0, uses_anonymous_args = 0
+   5:Core/Src/filter.c ****     filter->K = K;
+  61              		.loc 1 5 1 is_stmt 0 view .LVU7
+  62 0000 70B5     		push	{r4, r5, r6, lr}
+  63              	.LCFI0:
+  64              		.cfi_def_cfa_offset 16
+  65              		.cfi_offset 4, -16
+  66              		.cfi_offset 5, -12
+  67              		.cfi_offset 6, -8
+  68              		.cfi_offset 14, -4
+  69 0002 0446     		mov	r4, r0
+  70 0004 0D46     		mov	r5, r1
+  71 0006 1646     		mov	r6, r2
+   6:Core/Src/filter.c ****     filter->T1 = T1;
+  72              		.loc 1 6 5 is_stmt 1 view .LVU8
+   6:Core/Src/filter.c ****     filter->T1 = T1;
+  73              		.loc 1 6 15 is_stmt 0 view .LVU9
+  74 0008 0360     		str	r3, [r0]	@ float
+   7:Core/Src/filter.c ****     filter->Ts = Ts;
+  75              		.loc 1 7 5 is_stmt 1 view .LVU10
+   7:Core/Src/filter.c ****     filter->Ts = Ts;
+  76              		.loc 1 7 16 is_stmt 0 view .LVU11
+  77 000a 4160     		str	r1, [r0, #4]	@ float
+   8:Core/Src/filter.c ****     
+  78              		.loc 1 8 5 is_stmt 1 view .LVU12
+   8:Core/Src/filter.c ****     
+  79              		.loc 1 8 16 is_stmt 0 view .LVU13
+  80 000c 8260     		str	r2, [r0, #8]	@ float
+  11:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  81              		.loc 1 11 5 is_stmt 1 view .LVU14
+  11:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  82              		.loc 1 11 8 is_stmt 0 view .LVU15
+  83 000e 0021     		movs	r1, #0
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 3
+
+
+  84              	.LVL2:
+  11:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  85              		.loc 1 11 8 view .LVU16
+  86 0010 2846     		mov	r0, r5
+  87              	.LVL3:
+  11:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  88              		.loc 1 11 8 view .LVU17
+  89 0012 FFF7FEFF 		bl	__aeabi_fcmpgt
+  90              	.LVL4:
+  11:Core/Src/filter.c ****         filter->alpha = expf(-Ts / T1);
+  91              		.loc 1 11 8 view .LVU18
+  92 0016 28B9     		cbnz	r0, .L9
+  14:Core/Src/filter.c ****     }
+  93              		.loc 1 14 9 is_stmt 1 view .LVU19
+  14:Core/Src/filter.c ****     }
+  94              		.loc 1 14 23 is_stmt 0 view .LVU20
+  95 0018 0023     		movs	r3, #0
+  96 001a E360     		str	r3, [r4, #12]	@ float
+  97              	.L5:
+  17:Core/Src/filter.c **** }
+  98              		.loc 1 17 5 is_stmt 1 view .LVU21
+  99 001c 2046     		mov	r0, r4
+ 100 001e FFF7FEFF 		bl	Filter_Reset
+ 101              	.LVL5:
+  18:Core/Src/filter.c **** 
+ 102              		.loc 1 18 1 is_stmt 0 view .LVU22
+ 103 0022 70BD     		pop	{r4, r5, r6, pc}
+ 104              	.LVL6:
+ 105              	.L9:
+  12:Core/Src/filter.c ****     } else {
+ 106              		.loc 1 12 9 is_stmt 1 view .LVU23
+  12:Core/Src/filter.c ****     } else {
+ 107              		.loc 1 12 30 is_stmt 0 view .LVU24
+ 108 0024 06F10040 		add	r0, r6, #-2147483648
+  12:Core/Src/filter.c ****     } else {
+ 109              		.loc 1 12 25 view .LVU25
+ 110 0028 2946     		mov	r1, r5
+ 111 002a FFF7FEFF 		bl	__aeabi_fdiv
+ 112              	.LVL7:
+ 113 002e FFF7FEFF 		bl	expf
+ 114              	.LVL8:
+  12:Core/Src/filter.c ****     } else {
+ 115              		.loc 1 12 23 discriminator 1 view .LVU26
+ 116 0032 E060     		str	r0, [r4, #12]	@ float
+ 117 0034 F2E7     		b	.L5
+ 118              		.cfi_endproc
+ 119              	.LFE0:
+ 121              		.global	__aeabi_fmul
+ 122              		.global	__aeabi_fsub
+ 123              		.global	__aeabi_fadd
+ 124              		.section	.text.Filter_Update,"ax",%progbits
+ 125              		.align	1
+ 126              		.global	Filter_Update
+ 127              		.syntax unified
+ 128              		.thumb
+ 129              		.thumb_func
+ 131              	Filter_Update:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 4
+
+
+ 132              	.LVL9:
+ 133              	.LFB2:
+  25:Core/Src/filter.c **** 
+  26:Core/Src/filter.c **** float Filter_Update(FirstOrderFilter *filter, float input)
+  27:Core/Src/filter.c **** {
+ 134              		.loc 1 27 1 is_stmt 1 view -0
+ 135              		.cfi_startproc
+ 136              		@ args = 0, pretend = 0, frame = 0
+ 137              		@ frame_needed = 0, uses_anonymous_args = 0
+ 138              		.loc 1 27 1 is_stmt 0 view .LVU28
+ 139 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 140              	.LCFI1:
+ 141              		.cfi_def_cfa_offset 24
+ 142              		.cfi_offset 3, -24
+ 143              		.cfi_offset 4, -20
+ 144              		.cfi_offset 5, -16
+ 145              		.cfi_offset 6, -12
+ 146              		.cfi_offset 7, -8
+ 147              		.cfi_offset 14, -4
+ 148 0002 0446     		mov	r4, r0
+ 149 0004 0F46     		mov	r7, r1
+  28:Core/Src/filter.c ****     // Дискретная реализация фильтра первого порядка
+  29:Core/Src/filter.c ****     filter->output = filter->alpha * filter->y_prev + (1 - filter->alpha) * (filter->K * input);
+ 150              		.loc 1 29 5 is_stmt 1 view .LVU29
+ 151              		.loc 1 29 28 is_stmt 0 view .LVU30
+ 152 0006 C668     		ldr	r6, [r0, #12]	@ float
+ 153              		.loc 1 29 36 view .LVU31
+ 154 0008 0169     		ldr	r1, [r0, #16]	@ float
+ 155              	.LVL10:
+ 156              		.loc 1 29 36 view .LVU32
+ 157 000a 3046     		mov	r0, r6
+ 158              	.LVL11:
+ 159              		.loc 1 29 36 view .LVU33
+ 160 000c FFF7FEFF 		bl	__aeabi_fmul
+ 161              	.LVL12:
+ 162 0010 0546     		mov	r5, r0
+ 163              		.loc 1 29 58 view .LVU34
+ 164 0012 3146     		mov	r1, r6
+ 165 0014 4FF07E50 		mov	r0, #1065353216
+ 166 0018 FFF7FEFF 		bl	__aeabi_fsub
+ 167              	.LVL13:
+ 168 001c 0646     		mov	r6, r0
+ 169              		.loc 1 29 88 view .LVU35
+ 170 001e 3946     		mov	r1, r7
+ 171 0020 2068     		ldr	r0, [r4]	@ float
+ 172 0022 FFF7FEFF 		bl	__aeabi_fmul
+ 173              	.LVL14:
+ 174 0026 0146     		mov	r1, r0
+ 175              		.loc 1 29 75 view .LVU36
+ 176 0028 3046     		mov	r0, r6
+ 177 002a FFF7FEFF 		bl	__aeabi_fmul
+ 178              	.LVL15:
+ 179 002e 0146     		mov	r1, r0
+ 180              		.loc 1 29 53 view .LVU37
+ 181 0030 2846     		mov	r0, r5
+ 182 0032 FFF7FEFF 		bl	__aeabi_fadd
+ 183              	.LVL16:
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 5
+
+
+ 184              		.loc 1 29 20 view .LVU38
+ 185 0036 6061     		str	r0, [r4, #20]	@ float
+  30:Core/Src/filter.c ****     
+  31:Core/Src/filter.c ****     // Сохранение для следующего шага
+  32:Core/Src/filter.c ****     filter->y_prev = filter->output;
+ 186              		.loc 1 32 5 is_stmt 1 view .LVU39
+ 187              		.loc 1 32 20 is_stmt 0 view .LVU40
+ 188 0038 2061     		str	r0, [r4, #16]	@ float
+  33:Core/Src/filter.c ****     
+  34:Core/Src/filter.c ****     return filter->output;
+ 189              		.loc 1 34 5 is_stmt 1 view .LVU41
+  35:Core/Src/filter.c **** }
+ 190              		.loc 1 35 1 is_stmt 0 view .LVU42
+ 191 003a F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 192              		.loc 1 35 1 view .LVU43
+ 193              		.cfi_endproc
+ 194              	.LFE2:
+ 196              		.section	.text.Filter_SetTimeConstant,"ax",%progbits
+ 197              		.align	1
+ 198              		.global	Filter_SetTimeConstant
+ 199              		.syntax unified
+ 200              		.thumb
+ 201              		.thumb_func
+ 203              	Filter_SetTimeConstant:
+ 204              	.LVL17:
+ 205              	.LFB3:
+  36:Core/Src/filter.c **** 
+  37:Core/Src/filter.c **** void Filter_SetTimeConstant(FirstOrderFilter *filter, float T1)
+  38:Core/Src/filter.c **** {
+ 206              		.loc 1 38 1 is_stmt 1 view -0
+ 207              		.cfi_startproc
+ 208              		@ args = 0, pretend = 0, frame = 0
+ 209              		@ frame_needed = 0, uses_anonymous_args = 0
+ 210              		.loc 1 38 1 is_stmt 0 view .LVU45
+ 211 0000 38B5     		push	{r3, r4, r5, lr}
+ 212              	.LCFI2:
+ 213              		.cfi_def_cfa_offset 16
+ 214              		.cfi_offset 3, -16
+ 215              		.cfi_offset 4, -12
+ 216              		.cfi_offset 5, -8
+ 217              		.cfi_offset 14, -4
+ 218 0002 0546     		mov	r5, r0
+ 219 0004 0C46     		mov	r4, r1
+  39:Core/Src/filter.c ****     filter->T1 = T1;
+ 220              		.loc 1 39 5 is_stmt 1 view .LVU46
+ 221              		.loc 1 39 16 is_stmt 0 view .LVU47
+ 222 0006 4160     		str	r1, [r0, #4]	@ float
+  40:Core/Src/filter.c ****     
+  41:Core/Src/filter.c ****     if (T1 > 0) {
+ 223              		.loc 1 41 5 is_stmt 1 view .LVU48
+ 224              		.loc 1 41 8 is_stmt 0 view .LVU49
+ 225 0008 0021     		movs	r1, #0
+ 226              	.LVL18:
+ 227              		.loc 1 41 8 view .LVU50
+ 228 000a 2046     		mov	r0, r4
+ 229              	.LVL19:
+ 230              		.loc 1 41 8 view .LVU51
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 6
+
+
+ 231 000c FFF7FEFF 		bl	__aeabi_fcmpgt
+ 232              	.LVL20:
+ 233 0010 10B9     		cbnz	r0, .L19
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+  43:Core/Src/filter.c ****     } else {
+  44:Core/Src/filter.c ****         filter->alpha = 0;
+ 234              		.loc 1 44 9 is_stmt 1 view .LVU52
+ 235              		.loc 1 44 23 is_stmt 0 view .LVU53
+ 236 0012 0023     		movs	r3, #0
+ 237 0014 EB60     		str	r3, [r5, #12]	@ float
+ 238              	.L12:
+  45:Core/Src/filter.c ****     }
+  46:Core/Src/filter.c **** }...
+ 239              		.loc 1 46 1 view .LVU54
+ 240 0016 38BD     		pop	{r3, r4, r5, pc}
+ 241              	.LVL21:
+ 242              	.L19:
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+ 243              		.loc 1 42 9 is_stmt 1 view .LVU55
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+ 244              		.loc 1 42 37 is_stmt 0 view .LVU56
+ 245 0018 A868     		ldr	r0, [r5, #8]	@ float
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+ 246              		.loc 1 42 30 view .LVU57
+ 247 001a 00F10040 		add	r0, r0, #-2147483648
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+ 248              		.loc 1 42 25 view .LVU58
+ 249 001e 2146     		mov	r1, r4
+ 250 0020 FFF7FEFF 		bl	__aeabi_fdiv
+ 251              	.LVL22:
+ 252 0024 FFF7FEFF 		bl	expf
+ 253              	.LVL23:
+  42:Core/Src/filter.c ****         filter->alpha = expf(-filter->Ts / T1);
+ 254              		.loc 1 42 23 discriminator 1 view .LVU59
+ 255 0028 E860     		str	r0, [r5, #12]	@ float
+ 256 002a F4E7     		b	.L12
+ 257              		.cfi_endproc
+ 258              	.LFE3:
+ 260              		.text
+ 261              	.Letext0:
+ 262              		.file 2 "Core/Inc/filter.h"
+ 263              		.file 3 "D:/Programs/Education/STM32/Tools/Xpack/arm-none-eabi/include/math.h"
+ARM GAS  C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 filter.c
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:19     .text.Filter_Reset:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:25     .text.Filter_Reset:00000000 Filter_Reset
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:48     .text.Filter_Init:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:54     .text.Filter_Init:00000000 Filter_Init
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:125    .text.Filter_Update:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:131    .text.Filter_Update:00000000 Filter_Update
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:197    .text.Filter_SetTimeConstant:00000000 $t
+C:\Users\Dmitriy\AppData\Local\Temp\ccgMjBLH.s:203    .text.Filter_SetTimeConstant:00000000 Filter_SetTimeConstant
+
+UNDEFINED SYMBOLS
+__aeabi_fcmpgt
+__aeabi_fdiv
+expf
+__aeabi_fmul
+__aeabi_fsub
+__aeabi_fadd

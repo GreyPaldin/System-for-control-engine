@@ -1,0 +1,1536 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (atexit)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (exit)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o) (__sread)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o) (_close_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o) (errno)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o) (_impure_ptr)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o) (_lseek_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o) (_read_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o) (_write_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+                              build_F103C8/syscalls.o (__errno)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_init_array)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_fini_array)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o) (__register_exitproc)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o) (__call_exitprocs)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o) (_free_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o) (_malloc_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o) (__malloc_lock)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o) (_fflush_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                              build_F103C8/filter.o (expf)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o) (finitef)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o) (__ieee754_expf)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o) (__math_uflowf)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                              build_F103C8/filter.o (__aeabi_fmul)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                              build_F103C8/filter.o (__aeabi_fsub)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                              build_F103C8/filter.o (__aeabi_fdiv)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                              build_F103C8/controller.o (__aeabi_fcmplt)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o) (__aeabi_fcmpun)
+D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o) (__aeabi_f2iz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x00000000       0x70 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .text          0x00000000        0x0 build_F103C8/system_stm32f1xx.o
+ .data          0x00000000        0x0 build_F103C8/system_stm32f1xx.o
+ .bss           0x00000000        0x0 build_F103C8/system_stm32f1xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x94 build_F103C8/system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 build_F103C8/system_stm32f1xx.o
+ .rodata.AHBPrescTable
+                0x00000000       0x10 build_F103C8/system_stm32f1xx.o
+ .text          0x00000000        0x0 build_F103C8/syscalls.o
+ .data          0x00000000        0x0 build_F103C8/syscalls.o
+ .bss           0x00000000        0x0 build_F103C8/syscalls.o
+ .text.initialise_monitor_handles
+                0x00000000        0x2 build_F103C8/syscalls.o
+ .text._getpid  0x00000000        0x4 build_F103C8/syscalls.o
+ .text._kill    0x00000000       0x10 build_F103C8/syscalls.o
+ .text._exit    0x00000000        0xc build_F103C8/syscalls.o
+ .text._read    0x00000000       0x20 build_F103C8/syscalls.o
+ .text._write   0x00000000       0x1c build_F103C8/syscalls.o
+ .text._close   0x00000000        0x6 build_F103C8/syscalls.o
+ .text._fstat   0x00000000        0xa build_F103C8/syscalls.o
+ .text._isatty  0x00000000        0x4 build_F103C8/syscalls.o
+ .text._lseek   0x00000000        0x4 build_F103C8/syscalls.o
+ .text._open    0x00000000        0xa build_F103C8/syscalls.o
+ .text._wait    0x00000000       0x10 build_F103C8/syscalls.o
+ .text._unlink  0x00000000       0x10 build_F103C8/syscalls.o
+ .text._times   0x00000000        0x6 build_F103C8/syscalls.o
+ .text._stat    0x00000000        0xa build_F103C8/syscalls.o
+ .text._link    0x00000000       0x10 build_F103C8/syscalls.o
+ .text._fork    0x00000000       0x10 build_F103C8/syscalls.o
+ .text._execve  0x00000000       0x10 build_F103C8/syscalls.o
+ .data.environ  0x00000000        0x4 build_F103C8/syscalls.o
+ .bss.__env     0x00000000        0x4 build_F103C8/syscalls.o
+ .debug_info    0x00000000      0x848 build_F103C8/syscalls.o
+ .debug_abbrev  0x00000000      0x1e3 build_F103C8/syscalls.o
+ .debug_loc     0x00000000      0x583 build_F103C8/syscalls.o
+ .debug_aranges
+                0x00000000       0xa8 build_F103C8/syscalls.o
+ .debug_ranges  0x00000000       0x98 build_F103C8/syscalls.o
+ .debug_line    0x00000000      0x3cf build_F103C8/syscalls.o
+ .debug_str     0x00000000      0x3d2 build_F103C8/syscalls.o
+ .comment       0x00000000       0x3a build_F103C8/syscalls.o
+ .debug_frame   0x00000000      0x190 build_F103C8/syscalls.o
+ .ARM.attributes
+                0x00000000       0x2d build_F103C8/syscalls.o
+ .text          0x00000000        0x0 build_F103C8/sysmem.o
+ .data          0x00000000        0x0 build_F103C8/sysmem.o
+ .bss           0x00000000        0x0 build_F103C8/sysmem.o
+ .text._sbrk    0x00000000       0x48 build_F103C8/sysmem.o
+ .bss.__sbrk_heap_end
+                0x00000000        0x4 build_F103C8/sysmem.o
+ .debug_info    0x00000000      0x18c build_F103C8/sysmem.o
+ .debug_abbrev  0x00000000       0xeb build_F103C8/sysmem.o
+ .debug_loc     0x00000000       0x90 build_F103C8/sysmem.o
+ .debug_aranges
+                0x00000000       0x20 build_F103C8/sysmem.o
+ .debug_ranges  0x00000000       0x10 build_F103C8/sysmem.o
+ .debug_line    0x00000000      0x1ae build_F103C8/sysmem.o
+ .debug_str     0x00000000      0x1fe build_F103C8/sysmem.o
+ .comment       0x00000000       0x3a build_F103C8/sysmem.o
+ .debug_frame   0x00000000       0x28 build_F103C8/sysmem.o
+ .ARM.attributes
+                0x00000000       0x2d build_F103C8/sysmem.o
+ .text          0x00000000        0x0 build_F103C8/main.o
+ .data          0x00000000        0x0 build_F103C8/main.o
+ .bss           0x00000000        0x0 build_F103C8/main.o
+ .text          0x00000000        0x0 build_F103C8/timer_manager.o
+ .data          0x00000000        0x0 build_F103C8/timer_manager.o
+ .bss           0x00000000        0x0 build_F103C8/timer_manager.o
+ .text.TimerManager_Stop
+                0x00000000       0x48 build_F103C8/timer_manager.o
+ .text.TimerManager_GetControllerTick
+                0x00000000        0xc build_F103C8/timer_manager.o
+ .text.TimerManager_GetFilterTick
+                0x00000000        0xc build_F103C8/timer_manager.o
+ .text.TimerManager_GetMotorTick
+                0x00000000        0xc build_F103C8/timer_manager.o
+ .text          0x00000000        0x0 build_F103C8/filter.o
+ .data          0x00000000        0x0 build_F103C8/filter.o
+ .bss           0x00000000        0x0 build_F103C8/filter.o
+ .text.Filter_SetTimeConstant
+                0x00000000       0x2c build_F103C8/filter.o
+ .text          0x00000000        0x0 build_F103C8/controller.o
+ .data          0x00000000        0x0 build_F103C8/controller.o
+ .bss           0x00000000        0x0 build_F103C8/controller.o
+ .text.PI_Controller_SetParams
+                0x00000000        0x6 build_F103C8/controller.o
+ .text          0x00000000        0x0 build_F103C8/motor.o
+ .data          0x00000000        0x0 build_F103C8/motor.o
+ .bss           0x00000000        0x0 build_F103C8/motor.o
+ .text.Motor_SetParams
+                0x00000000        0x6 build_F103C8/motor.o
+ .text          0x00000000        0x0 build_F103C8/system.o
+ .data          0x00000000        0x0 build_F103C8/system.o
+ .bss           0x00000000        0x0 build_F103C8/system.o
+ .text.System_GetInstance
+                0x00000000        0x8 build_F103C8/system.o
+ .text.System_GetControllerOutput
+                0x00000000        0xc build_F103C8/system.o
+ .text.System_GetFilterOutput
+                0x00000000        0xc build_F103C8/system.o
+ .text.System_GetMotorOutput
+                0x00000000        0xc build_F103C8/system.o
+ .text.System_GetTimeBuffer
+                0x00000000        0x8 build_F103C8/system.o
+ .text.System_GetValueBuffer
+                0x00000000        0x8 build_F103C8/system.o
+ .text.System_GetBufferIndex
+                0x00000000        0xc build_F103C8/system.o
+ .text          0x00000000        0x0 build_F103C8/stm32f1xx_it.o
+ .data          0x00000000        0x0 build_F103C8/stm32f1xx_it.o
+ .bss           0x00000000        0x0 build_F103C8/stm32f1xx_it.o
+ .text          0x00000000       0x14 build_F103C8/startup_stm32f103xb.o
+ .data          0x00000000        0x0 build_F103C8/startup_stm32f103xb.o
+ .bss           0x00000000        0x0 build_F103C8/startup_stm32f103xb.o
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .text.atexit   0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x3c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xac D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000000       0xbc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x00000000       0x8c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .data.__atexit_dummy
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xbc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .bss.__atexit  0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .data.__atexit_recursive_mutex
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .text._free_r  0x00000000       0x90 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x44 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x100 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x100 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .text.__math_divzerof
+                0x00000000       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .text.__math_invalidf
+                0x00000000       0x30 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .text          0x00000000      0x168 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_line    0x00000000       0xbd D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_line_str
+                0x00000000      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_info    0x00000000       0x3f D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_abbrev  0x00000000       0x26 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_aranges
+                0x00000000       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_str     0x00000000      0x137 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x00000000       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .text          0x00000000       0x2c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_line    0x00000000       0x57 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_line_str
+                0x00000000      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_info    0x00000000       0x3c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_abbrev  0x00000000       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_aranges
+                0x00000000       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_str     0x00000000      0x13b D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .debug_frame   0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .ARM.attributes
+                0x00000000       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .comment       0x00000000       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+ .text          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+ .data          0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+ .bss           0x00000000        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00005000         xrw
+FLASH            0x08000000         0x00010000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+LOAD build_F103C8/system_stm32f1xx.o
+LOAD build_F103C8/syscalls.o
+LOAD build_F103C8/sysmem.o
+LOAD build_F103C8/main.o
+LOAD build_F103C8/timer_manager.o
+LOAD build_F103C8/filter.o
+LOAD build_F103C8/controller.o
+LOAD build_F103C8/motor.o
+LOAD build_F103C8/system.o
+LOAD build_F103C8/stm32f1xx_it.o
+LOAD build_F103C8/startup_stm32f103xb.o
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a
+START GROUP
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a
+END GROUP
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtend.o
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+                0x20005000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c build_F103C8/startup_stm32f103xb.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x0800010c     0x10e4
+                0x0800010c                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x0800010c      0x21c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x0800010c                __aeabi_frsub
+                0x08000114                __subsf3
+                0x08000114                __aeabi_fsub
+                0x08000118                __aeabi_fadd
+                0x08000118                __addsf3
+                0x08000278                __aeabi_ui2f
+                0x08000278                __floatunsisf
+                0x08000280                __aeabi_i2f
+                0x08000280                __floatsisf
+                0x0800029c                __aeabi_ul2f
+                0x0800029c                __floatundisf
+                0x080002ac                __aeabi_l2f
+                0x080002ac                __floatdisf
+ .text          0x08000328      0x2a0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x08000328                __mulsf3
+                0x08000328                __aeabi_fmul
+                0x08000490                __aeabi_fdiv
+                0x08000490                __divsf3
+ .text          0x080005c8       0xec D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                0x080005c8                __gesf2
+                0x080005c8                __gtsf2
+                0x080005d0                __lesf2
+                0x080005d0                __ltsf2
+                0x080005d8                __nesf2
+                0x080005d8                __eqsf2
+                0x080005d8                __cmpsf2
+                0x08000638                __aeabi_cfrcmple
+                0x08000640                __aeabi_cfcmpeq
+                0x08000640                __aeabi_cfcmple
+                0x08000650                __aeabi_fcmpeq
+                0x08000664                __aeabi_fcmplt
+                0x08000678                __aeabi_fcmple
+                0x0800068c                __aeabi_fcmpge
+                0x080006a0                __aeabi_fcmpgt
+ .text          0x080006b4       0x4c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                0x080006b4                __aeabi_f2iz
+                0x080006b4                __fixsfsi
+ *(.text*)
+ .text.__do_global_dtors_aux
+                0x08000700       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .text.frame_dummy
+                0x08000724       0x1c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .text.SystemInit
+                0x08000740        0x2 build_F103C8/system_stm32f1xx.o
+                0x08000740                SystemInit
+ *fill*         0x08000742        0x2 
+ .text.SystemClock_Config
+                0x08000744       0xa0 build_F103C8/main.o
+                0x08000744                SystemClock_Config
+ .text.GPIO_Init
+                0x080007e4       0x28 build_F103C8/main.o
+                0x080007e4                GPIO_Init
+ .text.Delay    0x0800080c        0xe build_F103C8/main.o
+                0x0800080c                Delay
+ *fill*         0x0800081a        0x2 
+ .text.main     0x0800081c       0x74 build_F103C8/main.o
+                0x0800081c                main
+ .text.Timer_Configure
+                0x08000890       0xcc build_F103C8/timer_manager.o
+ .text.TimerManager_Init
+                0x0800095c       0x44 build_F103C8/timer_manager.o
+                0x0800095c                TimerManager_Init
+ .text.TimerManager_Start
+                0x080009a0       0x48 build_F103C8/timer_manager.o
+                0x080009a0                TimerManager_Start
+ .text.TimerManager_SetControllerCallback
+                0x080009e8        0xc build_F103C8/timer_manager.o
+                0x080009e8                TimerManager_SetControllerCallback
+ .text.TimerManager_SetFilterCallback
+                0x080009f4        0xc build_F103C8/timer_manager.o
+                0x080009f4                TimerManager_SetFilterCallback
+ .text.TimerManager_SetMotorCallback
+                0x08000a00        0xc build_F103C8/timer_manager.o
+                0x08000a00                TimerManager_SetMotorCallback
+ .text.TimerManager_ControllerIRQHandler
+                0x08000a0c       0x34 build_F103C8/timer_manager.o
+                0x08000a0c                TimerManager_ControllerIRQHandler
+ .text.TimerManager_FilterIRQHandler
+                0x08000a40       0x34 build_F103C8/timer_manager.o
+                0x08000a40                TimerManager_FilterIRQHandler
+ .text.TimerManager_MotorIRQHandler
+                0x08000a74       0x34 build_F103C8/timer_manager.o
+                0x08000a74                TimerManager_MotorIRQHandler
+ .text.Filter_Reset
+                0x08000aa8        0x8 build_F103C8/filter.o
+                0x08000aa8                Filter_Reset
+ .text.Filter_Init
+                0x08000ab0       0x36 build_F103C8/filter.o
+                0x08000ab0                Filter_Init
+ .text.Filter_Update
+                0x08000ae6       0x3c build_F103C8/filter.o
+                0x08000ae6                Filter_Update
+ .text.PI_Controller_Reset
+                0x08000b22        0xc build_F103C8/controller.o
+                0x08000b22                PI_Controller_Reset
+ .text.PI_Controller_Init
+                0x08000b2e       0x16 build_F103C8/controller.o
+                0x08000b2e                PI_Controller_Init
+ .text.PI_Controller_Update
+                0x08000b44       0x62 build_F103C8/controller.o
+                0x08000b44                PI_Controller_Update
+ .text.Motor_Reset
+                0x08000ba6        0x8 build_F103C8/motor.o
+                0x08000ba6                Motor_Reset
+ .text.Motor_Init
+                0x08000bae        0xe build_F103C8/motor.o
+                0x08000bae                Motor_Init
+ .text.Motor_Update
+                0x08000bbc       0x50 build_F103C8/motor.o
+                0x08000bbc                Motor_Update
+ .text.System_Init
+                0x08000c0c       0xa8 build_F103C8/system.o
+                0x08000c0c                System_Init
+ .text.System_ControllerUpdate
+                0x08000cb4       0x1c build_F103C8/system.o
+                0x08000cb4                System_ControllerUpdate
+ .text.System_FilterUpdate
+                0x08000cd0       0x1c build_F103C8/system.o
+                0x08000cd0                System_FilterUpdate
+ .text.System_MotorUpdate
+                0x08000cec       0x8c build_F103C8/system.o
+                0x08000cec                System_MotorUpdate
+ .text.System_SetSetpoint
+                0x08000d78        0xc build_F103C8/system.o
+                0x08000d78                System_SetSetpoint
+ .text.System_StartRecording
+                0x08000d84       0x10 build_F103C8/system.o
+                0x08000d84                System_StartRecording
+ .text.System_StopRecording
+                0x08000d94       0x10 build_F103C8/system.o
+                0x08000d94                System_StopRecording
+ .text.System_ClearBuffer
+                0x08000da4       0x40 build_F103C8/system.o
+                0x08000da4                System_ClearBuffer
+ .text.TIM2_IRQHandler
+                0x08000de4       0x16 build_F103C8/stm32f1xx_it.o
+                0x08000de4                TIM2_IRQHandler
+ .text.TIM3_IRQHandler
+                0x08000dfa       0x16 build_F103C8/stm32f1xx_it.o
+                0x08000dfa                TIM3_IRQHandler
+ .text.TIM4_IRQHandler
+                0x08000e10       0x16 build_F103C8/stm32f1xx_it.o
+                0x08000e10                TIM4_IRQHandler
+ .text.SysTick_Handler
+                0x08000e26       0x10 build_F103C8/stm32f1xx_it.o
+                0x08000e26                SysTick_Handler
+ *fill*         0x08000e36        0x2 
+ .text.Reset_Handler
+                0x08000e38       0x48 build_F103C8/startup_stm32f103xb.o
+                0x08000e38                Reset_Handler
+ .text.Default_Handler
+                0x08000e80        0x2 build_F103C8/startup_stm32f103xb.o
+                0x08000e80                RTC_Alarm_IRQHandler
+                0x08000e80                EXTI2_IRQHandler
+                0x08000e80                DebugMon_Handler
+                0x08000e80                TIM1_CC_IRQHandler
+                0x08000e80                HardFault_Handler
+                0x08000e80                PVD_IRQHandler
+                0x08000e80                PendSV_Handler
+                0x08000e80                NMI_Handler
+                0x08000e80                EXTI3_IRQHandler
+                0x08000e80                EXTI0_IRQHandler
+                0x08000e80                I2C2_EV_IRQHandler
+                0x08000e80                UsageFault_Handler
+                0x08000e80                ADC1_2_IRQHandler
+                0x08000e80                SPI1_IRQHandler
+                0x08000e80                TAMPER_IRQHandler
+                0x08000e80                DMA1_Channel4_IRQHandler
+                0x08000e80                USART3_IRQHandler
+                0x08000e80                RTC_IRQHandler
+                0x08000e80                DMA1_Channel7_IRQHandler
+                0x08000e80                CAN1_RX1_IRQHandler
+                0x08000e80                I2C1_EV_IRQHandler
+                0x08000e80                DMA1_Channel6_IRQHandler
+                0x08000e80                RCC_IRQHandler
+                0x08000e80                TIM1_TRG_COM_IRQHandler
+                0x08000e80                DMA1_Channel1_IRQHandler
+                0x08000e80                Default_Handler
+                0x08000e80                EXTI15_10_IRQHandler
+                0x08000e80                EXTI9_5_IRQHandler
+                0x08000e80                SPI2_IRQHandler
+                0x08000e80                MemManage_Handler
+                0x08000e80                SVC_Handler
+                0x08000e80                DMA1_Channel5_IRQHandler
+                0x08000e80                EXTI4_IRQHandler
+                0x08000e80                USB_LP_CAN1_RX0_IRQHandler
+                0x08000e80                USB_HP_CAN1_TX_IRQHandler
+                0x08000e80                DMA1_Channel3_IRQHandler
+                0x08000e80                TIM1_UP_IRQHandler
+                0x08000e80                WWDG_IRQHandler
+                0x08000e80                TIM1_BRK_IRQHandler
+                0x08000e80                EXTI1_IRQHandler
+                0x08000e80                USART2_IRQHandler
+                0x08000e80                I2C2_ER_IRQHandler
+                0x08000e80                DMA1_Channel2_IRQHandler
+                0x08000e80                CAN1_SCE_IRQHandler
+                0x08000e80                FLASH_IRQHandler
+                0x08000e80                BusFault_Handler
+                0x08000e80                USART1_IRQHandler
+                0x08000e80                I2C1_ER_IRQHandler
+                0x08000e80                USBWakeUp_IRQHandler
+ .text.memset   0x08000e82       0x10 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x08000e82                memset
+ *fill*         0x08000e92        0x2 
+ .text.__errno  0x08000e94        0xc D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+                0x08000e94                __errno
+ .text.__libc_init_array
+                0x08000ea0       0x48 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x08000ea0                __libc_init_array
+ .text.expf     0x08000ee8       0x50 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                0x08000ee8                expf
+ .text.finitef  0x08000f38       0x10 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+                0x08000f38                finitef
+ .text.__ieee754_expf
+                0x08000f48      0x244 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                0x08000f48                __ieee754_expf
+ .text.with_errnof
+                0x0800118c       0x14 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x080011a0       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .text.__math_uflowf
+                0x080011c8        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                0x080011c8                __math_uflowf
+ .text.__math_oflowf
+                0x080011d0        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                0x080011d0                __math_oflowf
+ *(.glue_7)
+ .glue_7        0x080011d8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080011d8        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x080011d8        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x080011d8        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+                0x080011d8                _init
+ .init          0x080011dc        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x080011e4        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+                0x080011e4                _fini
+ .fini          0x080011e8        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+                0x080011f0                        . = ALIGN (0x4)
+                0x080011f0                        _etext = .
+
+.vfp11_veneer   0x080011f0        0x0
+ .vfp11_veneer  0x080011f0        0x0 linker stubs
+
+.v4_bx          0x080011f0        0x0
+ .v4_bx         0x080011f0        0x0 linker stubs
+
+.iplt           0x080011f0        0x0
+ .iplt          0x080011f0        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+
+.rodata         0x080011f0       0x18
+                0x080011f0                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.ln2LO  0x080011f0        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .rodata.ln2HI  0x080011f8        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .rodata.halF   0x08001200        0x8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                0x08001208                        . = ALIGN (0x4)
+
+.rel.dyn        0x08001208        0x0
+ .rel.iplt      0x08001208        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08001208        0x0
+                0x08001208                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x08001208                        __exidx_end = .
+
+.preinit_array  0x08001208        0x0
+                0x08001208                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08001208                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x08001208        0x4
+                0x08001208                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x08001208        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x0800120c                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0800120c        0x4
+                0x0800120c                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x0800120c        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x08001210                        PROVIDE (__fini_array_end = .)
+                0x08001210                        _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x84 load address 0x08001210
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 build_F103C8/system_stm32f1xx.o
+                0x20000000                SystemCoreClock
+ .data.motor_timer
+                0x20000004       0x10 build_F103C8/timer_manager.o
+ .data.filter_timer
+                0x20000014       0x10 build_F103C8/timer_manager.o
+ .data.controller_timer
+                0x20000024       0x10 build_F103C8/timer_manager.o
+ .data._impure_ptr
+                0x20000034        0x4 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+                0x20000034                _impure_ptr
+ .data._impure_data
+                0x20000038       0x4c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+                0x20000038                _impure_data
+                0x20000084                        . = ALIGN (0x4)
+                0x20000084                        _edata = .
+
+.igot.plt       0x20000084        0x0 load address 0x08001294
+ .igot.plt      0x20000084        0x0 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x20000084                        . = ALIGN (0x4)
+
+.bss            0x20000084     0x30b8 load address 0x08001294
+                0x20000084                        _sbss = .
+                0x20000084                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.completed.1
+                0x20000084        0x1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x20000085        0x3 
+ .bss.object.0  0x20000088       0x18 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .bss.loop_counter.0
+                0x200000a0        0x4 build_F103C8/main.o
+ .bss.motor_tick
+                0x200000a4        0x4 build_F103C8/timer_manager.o
+ .bss.filter_tick
+                0x200000a8        0x4 build_F103C8/timer_manager.o
+ .bss.controller_tick
+                0x200000ac        0x4 build_F103C8/timer_manager.o
+ .bss.sample_counter.0
+                0x200000b0        0x4 build_F103C8/system.o
+ .bss.system_time
+                0x200000b4        0x4 build_F103C8/system.o
+ .bss.system_instance
+                0x200000b8     0x2f4c build_F103C8/system.o
+ .bss.__sf      0x20003004      0x138 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                0x20003004                __sf
+ *(COMMON)
+                0x2000313c                        . = ALIGN (0x4)
+                0x2000313c                        _ebss = .
+                0x2000313c                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2000313c      0x604 load address 0x08001294
+                0x20003140                        . = ALIGN (0x8)
+ *fill*         0x2000313c        0x4 
+                [!provide]                        PROVIDE (end = .)
+                0x20003140                        PROVIDE (_end = .)
+                0x20003340                        . = (. + _Min_Heap_Size)
+ *fill*         0x20003140      0x200 
+                0x20003740                        . = (. + _Min_Stack_Size)
+ *fill*         0x20003340      0x400 
+                0x20003740                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x2d build_F103C8/system_stm32f1xx.o
+ .ARM.attributes
+                0x00000077       0x2d build_F103C8/main.o
+ .ARM.attributes
+                0x000000a4       0x2d build_F103C8/timer_manager.o
+ .ARM.attributes
+                0x000000d1       0x2d build_F103C8/filter.o
+ .ARM.attributes
+                0x000000fe       0x2d build_F103C8/controller.o
+ .ARM.attributes
+                0x0000012b       0x2d build_F103C8/motor.o
+ .ARM.attributes
+                0x00000158       0x2d build_F103C8/system.o
+ .ARM.attributes
+                0x00000185       0x2d build_F103C8/stm32f1xx_it.o
+ .ARM.attributes
+                0x000001b2       0x21 build_F103C8/startup_stm32f103xb.o
+ .ARM.attributes
+                0x000001d3       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000200       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x0000022d       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x0000025a       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000287       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x000002b4       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+ .ARM.attributes
+                0x000002e1       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+ .ARM.attributes
+                0x0000030e       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .ARM.attributes
+                0x0000033b       0x2d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+ .ARM.attributes
+                0x00000368       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000385       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x000003a2       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000003bf       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x000003dc       0x1d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtn.o
+OUTPUT(build_F103C8/STM32F103C8.elf elf32-littlearm)
+LOAD linker stubs
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
+LOAD D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+                                 0x3a (size before relaxing)
+ .comment       0x00000039       0x3a build_F103C8/system_stm32f1xx.o
+ .comment       0x00000039       0x3a build_F103C8/main.o
+ .comment       0x00000039       0x3a build_F103C8/timer_manager.o
+ .comment       0x00000039       0x3a build_F103C8/filter.o
+ .comment       0x00000039       0x3a build_F103C8/controller.o
+ .comment       0x00000039       0x3a build_F103C8/motor.o
+ .comment       0x00000039       0x3a build_F103C8/system.o
+ .comment       0x00000039       0x3a build_F103C8/stm32f1xx_it.o
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+ .comment       0x00000039       0x3a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+
+.debug_info     0x00000000     0x2b3c
+ .debug_info    0x00000000      0x267 build_F103C8/system_stm32f1xx.o
+ .debug_info    0x00000267      0xa5e build_F103C8/main.o
+ .debug_info    0x00000cc5      0xb16 build_F103C8/timer_manager.o
+ .debug_info    0x000017db      0x2e2 build_F103C8/filter.o
+ .debug_info    0x00001abd      0x339 build_F103C8/controller.o
+ .debug_info    0x00001df6      0x297 build_F103C8/motor.o
+ .debug_info    0x0000208d      0x72d build_F103C8/system.o
+ .debug_info    0x000027ba      0x11a build_F103C8/stm32f1xx_it.o
+ .debug_info    0x000028d4       0x30 build_F103C8/startup_stm32f103xb.o
+ .debug_info    0x00002904       0xca D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x000029ce       0x57 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x00002a25       0xdb D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x00002b00       0x3c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_abbrev   0x00000000      0xd42
+ .debug_abbrev  0x00000000      0x140 build_F103C8/system_stm32f1xx.o
+ .debug_abbrev  0x00000140      0x282 build_F103C8/main.o
+ .debug_abbrev  0x000003c2      0x269 build_F103C8/timer_manager.o
+ .debug_abbrev  0x0000062b      0x154 build_F103C8/filter.o
+ .debug_abbrev  0x0000077f      0x159 build_F103C8/controller.o
+ .debug_abbrev  0x000008d8      0x145 build_F103C8/motor.o
+ .debug_abbrev  0x00000a1d      0x1ce build_F103C8/system.o
+ .debug_abbrev  0x00000beb       0x9a build_F103C8/stm32f1xx_it.o
+ .debug_abbrev  0x00000c85       0x1d build_F103C8/startup_stm32f103xb.o
+ .debug_abbrev  0x00000ca2       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x00000cca       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x00000cf2       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x00000d1a       0x28 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_loc      0x00000000      0xaeb
+ .debug_loc     0x00000000      0x11b build_F103C8/system_stm32f1xx.o
+ .debug_loc     0x0000011b       0xa6 build_F103C8/main.o
+ .debug_loc     0x000001c1      0x36d build_F103C8/timer_manager.o
+ .debug_loc     0x0000052e      0x175 build_F103C8/filter.o
+ .debug_loc     0x000006a3      0x1bc build_F103C8/controller.o
+ .debug_loc     0x0000085f      0x124 build_F103C8/motor.o
+ .debug_loc     0x00000983       0xb8 build_F103C8/system.o
+ .debug_loc     0x00000a3b       0xb0 build_F103C8/stm32f1xx_it.o
+
+.debug_aranges  0x00000000      0x2f8
+ .debug_aranges
+                0x00000000       0x28 build_F103C8/system_stm32f1xx.o
+ .debug_aranges
+                0x00000028       0x38 build_F103C8/main.o
+ .debug_aranges
+                0x00000060       0x80 build_F103C8/timer_manager.o
+ .debug_aranges
+                0x000000e0       0x38 build_F103C8/filter.o
+ .debug_aranges
+                0x00000118       0x38 build_F103C8/controller.o
+ .debug_aranges
+                0x00000150       0x38 build_F103C8/motor.o
+ .debug_aranges
+                0x00000188       0x90 build_F103C8/system.o
+ .debug_aranges
+                0x00000218       0x38 build_F103C8/stm32f1xx_it.o
+ .debug_aranges
+                0x00000250       0x28 build_F103C8/startup_stm32f103xb.o
+ .debug_aranges
+                0x00000278       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_aranges
+                0x00000298       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x000002b8       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_aranges
+                0x000002d8       0x20 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_ranges   0x00000000      0x208
+ .debug_ranges  0x00000000       0x18 build_F103C8/system_stm32f1xx.o
+ .debug_ranges  0x00000018       0x28 build_F103C8/main.o
+ .debug_ranges  0x00000040       0x88 build_F103C8/timer_manager.o
+ .debug_ranges  0x000000c8       0x28 build_F103C8/filter.o
+ .debug_ranges  0x000000f0       0x28 build_F103C8/controller.o
+ .debug_ranges  0x00000118       0x28 build_F103C8/motor.o
+ .debug_ranges  0x00000140       0x80 build_F103C8/system.o
+ .debug_ranges  0x000001c0       0x28 build_F103C8/stm32f1xx_it.o
+ .debug_ranges  0x000001e8       0x20 build_F103C8/startup_stm32f103xb.o
+
+.debug_line     0x00000000     0x16cb
+ .debug_line    0x00000000      0x240 build_F103C8/system_stm32f1xx.o
+ .debug_line    0x00000240      0x355 build_F103C8/main.o
+ .debug_line    0x00000595      0x49e build_F103C8/timer_manager.o
+ .debug_line    0x00000a33      0x18d build_F103C8/filter.o
+ .debug_line    0x00000bc0      0x170 build_F103C8/controller.o
+ .debug_line    0x00000d30      0x116 build_F103C8/motor.o
+ .debug_line    0x00000e46      0x42d build_F103C8/system.o
+ .debug_line    0x00001273       0xac build_F103C8/stm32f1xx_it.o
+ .debug_line    0x0000131f       0x8a build_F103C8/startup_stm32f103xb.o
+ .debug_line    0x000013a9      0x103 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x000014ac      0x123 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x000015cf       0x9a D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x00001669       0x62 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_str      0x00000000     0x102d
+ .debug_str     0x00000000     0x102d build_F103C8/system_stm32f1xx.o
+                                0x238 (size before relaxing)
+ .debug_str     0x0000102d      0x782 build_F103C8/main.o
+ .debug_str     0x0000102d      0x7e3 build_F103C8/timer_manager.o
+ .debug_str     0x0000102d      0x227 build_F103C8/filter.o
+ .debug_str     0x0000102d      0x284 build_F103C8/controller.o
+ .debug_str     0x0000102d      0x20c build_F103C8/motor.o
+ .debug_str     0x0000102d      0x4a7 build_F103C8/system.o
+ .debug_str     0x0000102d      0x1fa build_F103C8/stm32f1xx_it.o
+ .debug_str     0x0000102d       0x81 build_F103C8/startup_stm32f103xb.o
+ .debug_str     0x0000102d      0x1c1 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_str     0x0000102d      0x14d D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_str     0x0000102d      0x1d6 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_str     0x0000102d      0x138 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_frame    0x00000000      0x620
+ .debug_frame   0x00000000       0x30 build_F103C8/system_stm32f1xx.o
+ .debug_frame   0x00000030       0x58 build_F103C8/main.o
+ .debug_frame   0x00000088      0x114 build_F103C8/timer_manager.o
+ .debug_frame   0x0000019c       0x78 build_F103C8/filter.o
+ .debug_frame   0x00000214       0x68 build_F103C8/controller.o
+ .debug_frame   0x0000027c       0x68 build_F103C8/motor.o
+ .debug_frame   0x000002e4      0x13c build_F103C8/system.o
+ .debug_frame   0x00000420       0x90 build_F103C8/stm32f1xx_it.o
+ .debug_frame   0x000004b0       0x4c D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000004fc       0x38 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000534       0xc8 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x000005fc       0x24 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_line_str
+                0x00000000      0x113
+ .debug_line_str
+                0x00000000      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_line_str
+                0x00000113      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_line_str
+                0x00000113      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_line_str
+                0x00000113      0x113 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 build_F103C8/startup_stm32f103xb.o
+AHBPrescTable                                     build_F103C8/system_stm32f1xx.o
+APBPrescTable                                     build_F103C8/system_stm32f1xx.o
+BusFault_Handler                                  build_F103C8/startup_stm32f103xb.o
+CAN1_RX1_IRQHandler                               build_F103C8/startup_stm32f103xb.o
+CAN1_SCE_IRQHandler                               build_F103C8/startup_stm32f103xb.o
+DMA1_Channel1_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel2_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel3_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel4_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel5_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel6_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DMA1_Channel7_IRQHandler                          build_F103C8/startup_stm32f103xb.o
+DebugMon_Handler                                  build_F103C8/startup_stm32f103xb.o
+Default_Handler                                   build_F103C8/startup_stm32f103xb.o
+Delay                                             build_F103C8/main.o
+EXTI0_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+EXTI15_10_IRQHandler                              build_F103C8/startup_stm32f103xb.o
+EXTI1_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+EXTI2_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+EXTI3_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+EXTI4_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+EXTI9_5_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+FLASH_IRQHandler                                  build_F103C8/startup_stm32f103xb.o
+Filter_Init                                       build_F103C8/filter.o
+                                                  build_F103C8/system.o
+Filter_Reset                                      build_F103C8/filter.o
+Filter_SetTimeConstant                            build_F103C8/filter.o
+Filter_Update                                     build_F103C8/filter.o
+                                                  build_F103C8/system.o
+GPIO_Init                                         build_F103C8/main.o
+HardFault_Handler                                 build_F103C8/startup_stm32f103xb.o
+I2C1_ER_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+I2C1_EV_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+I2C2_ER_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+I2C2_EV_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+MemManage_Handler                                 build_F103C8/startup_stm32f103xb.o
+Motor_Init                                        build_F103C8/motor.o
+                                                  build_F103C8/system.o
+Motor_Reset                                       build_F103C8/motor.o
+Motor_SetParams                                   build_F103C8/motor.o
+Motor_Update                                      build_F103C8/motor.o
+                                                  build_F103C8/system.o
+NMI_Handler                                       build_F103C8/startup_stm32f103xb.o
+PI_Controller_Init                                build_F103C8/controller.o
+                                                  build_F103C8/system.o
+PI_Controller_Reset                               build_F103C8/controller.o
+PI_Controller_SetParams                           build_F103C8/controller.o
+PI_Controller_Update                              build_F103C8/controller.o
+                                                  build_F103C8/system.o
+PVD_IRQHandler                                    build_F103C8/startup_stm32f103xb.o
+PendSV_Handler                                    build_F103C8/startup_stm32f103xb.o
+RCC_IRQHandler                                    build_F103C8/startup_stm32f103xb.o
+RTC_Alarm_IRQHandler                              build_F103C8/startup_stm32f103xb.o
+RTC_IRQHandler                                    build_F103C8/startup_stm32f103xb.o
+Reset_Handler                                     build_F103C8/startup_stm32f103xb.o
+SPI1_IRQHandler                                   build_F103C8/startup_stm32f103xb.o
+SPI2_IRQHandler                                   build_F103C8/startup_stm32f103xb.o
+SVC_Handler                                       build_F103C8/startup_stm32f103xb.o
+SysTick_Handler                                   build_F103C8/stm32f1xx_it.o
+SystemClock_Config                                build_F103C8/main.o
+SystemCoreClock                                   build_F103C8/system_stm32f1xx.o
+                                                  build_F103C8/main.o
+SystemCoreClockUpdate                             build_F103C8/system_stm32f1xx.o
+SystemInit                                        build_F103C8/system_stm32f1xx.o
+                                                  build_F103C8/startup_stm32f103xb.o
+System_ClearBuffer                                build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_ControllerUpdate                           build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_FilterUpdate                               build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_GetBufferIndex                             build_F103C8/system.o
+System_GetControllerOutput                        build_F103C8/system.o
+System_GetFilterOutput                            build_F103C8/system.o
+System_GetInstance                                build_F103C8/system.o
+System_GetMotorOutput                             build_F103C8/system.o
+System_GetTimeBuffer                              build_F103C8/system.o
+System_GetValueBuffer                             build_F103C8/system.o
+System_Init                                       build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_MotorUpdate                                build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_SetSetpoint                                build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_StartRecording                             build_F103C8/system.o
+                                                  build_F103C8/main.o
+System_StopRecording                              build_F103C8/system.o
+                                                  build_F103C8/main.o
+TAMPER_IRQHandler                                 build_F103C8/startup_stm32f103xb.o
+TIM1_BRK_IRQHandler                               build_F103C8/startup_stm32f103xb.o
+TIM1_CC_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+TIM1_TRG_COM_IRQHandler                           build_F103C8/startup_stm32f103xb.o
+TIM1_UP_IRQHandler                                build_F103C8/startup_stm32f103xb.o
+TIM2_IRQHandler                                   build_F103C8/stm32f1xx_it.o
+TIM3_IRQHandler                                   build_F103C8/stm32f1xx_it.o
+TIM4_IRQHandler                                   build_F103C8/stm32f1xx_it.o
+TimerManager_ControllerIRQHandler                 build_F103C8/timer_manager.o
+                                                  build_F103C8/stm32f1xx_it.o
+TimerManager_FilterIRQHandler                     build_F103C8/timer_manager.o
+                                                  build_F103C8/stm32f1xx_it.o
+TimerManager_GetControllerTick                    build_F103C8/timer_manager.o
+TimerManager_GetFilterTick                        build_F103C8/timer_manager.o
+TimerManager_GetMotorTick                         build_F103C8/timer_manager.o
+TimerManager_Init                                 build_F103C8/timer_manager.o
+                                                  build_F103C8/main.o
+TimerManager_MotorIRQHandler                      build_F103C8/timer_manager.o
+                                                  build_F103C8/stm32f1xx_it.o
+TimerManager_SetControllerCallback                build_F103C8/timer_manager.o
+                                                  build_F103C8/main.o
+TimerManager_SetFilterCallback                    build_F103C8/timer_manager.o
+                                                  build_F103C8/main.o
+TimerManager_SetMotorCallback                     build_F103C8/timer_manager.o
+                                                  build_F103C8/main.o
+TimerManager_Start                                build_F103C8/timer_manager.o
+                                                  build_F103C8/main.o
+TimerManager_Stop                                 build_F103C8/timer_manager.o
+USART1_IRQHandler                                 build_F103C8/startup_stm32f103xb.o
+USART2_IRQHandler                                 build_F103C8/startup_stm32f103xb.o
+USART3_IRQHandler                                 build_F103C8/startup_stm32f103xb.o
+USBWakeUp_IRQHandler                              build_F103C8/startup_stm32f103xb.o
+USB_HP_CAN1_TX_IRQHandler                         build_F103C8/startup_stm32f103xb.o
+USB_LP_CAN1_RX0_IRQHandler                        build_F103C8/startup_stm32f103xb.o
+UsageFault_Handler                                build_F103C8/startup_stm32f103xb.o
+WWDG_IRQHandler                                   build_F103C8/startup_stm32f103xb.o
+_Min_Stack_Size                                   build_F103C8/sysmem.o
+__addsf3                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__aeabi_cfcmpeq                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfcmple                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfrcmple                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_f2iz                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+__aeabi_fadd                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  build_F103C8/system.o
+                                                  build_F103C8/motor.o
+                                                  build_F103C8/controller.o
+                                                  build_F103C8/filter.o
+__aeabi_fcmpeq                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmpge                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmpgt                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                                                  build_F103C8/motor.o
+                                                  build_F103C8/controller.o
+                                                  build_F103C8/filter.o
+__aeabi_fcmple                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmplt                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                                                  build_F103C8/controller.o
+__aeabi_fcmpun                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+__aeabi_fdiv                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  build_F103C8/motor.o
+                                                  build_F103C8/filter.o
+__aeabi_fmul                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  build_F103C8/motor.o
+                                                  build_F103C8/controller.o
+                                                  build_F103C8/filter.o
+__aeabi_frsub                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__aeabi_fsub                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  build_F103C8/motor.o
+                                                  build_F103C8/controller.o
+                                                  build_F103C8/filter.o
+__aeabi_i2f                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+__aeabi_l2f                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__aeabi_ui2f                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__aeabi_ul2f                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__atexit                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+__atexit0                                         D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+__atexit_dummy                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+__atexit_recursive_mutex                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+__bss_end__                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__bss_start__                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__call_exitprocs                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+__cmpsf2                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__deregister_frame_info                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+__divsf3                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+__dso_handle                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+__env                                             build_F103C8/syscalls.o
+__eqsf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__errno                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                                                  build_F103C8/sysmem.o
+                                                  build_F103C8/syscalls.o
+__fini_array_end                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+__fini_array_start                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+__fixsfsi                                         D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+__floatdisf                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__floatsisf                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__floatundisf                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__floatunsisf                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__fp_lock_all                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__fp_unlock_all                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__gesf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__gtsf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__ieee754_expf                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+__init_array_end                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+__init_array_start                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+__io_getchar                                      build_F103C8/syscalls.o
+__io_putchar                                      build_F103C8/syscalls.o
+__lesf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__libc_fini_array                                 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__libc_init_array                                 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                                                  build_F103C8/startup_stm32f103xb.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__lock___arc4random_mutex                         D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__lock___at_quick_exit_mutex                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__lock___atexit_recursive_mutex                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+__lock___dd_hash_mutex                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__lock___env_recursive_mutex                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__lock___malloc_recursive_mutex                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+__lock___sfp_recursive_mutex                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__lock___tz_mutex                                 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__ltsf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__malloc_free_list                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+__malloc_lock                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+__malloc_sbrk_start                               D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+__malloc_unlock                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+__math_divzerof                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+__math_invalidf                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+__math_oflowf                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+__math_uflowf                                     D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-math_errf.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-ef_exp.o)
+__mulsf3                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+__nesf2                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__on_exit_args                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+__preinit_array_end                               D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+__preinit_array_start                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+__register_exitproc                               D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+__register_frame_info                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crtbegin.o
+__retarget_lock_acquire                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_acquire_recursive                 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__retarget_lock_close                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_close_recursive                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_init                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_init_recursive                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__retarget_lock_release                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_release_recursive                 D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mlock.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__call_atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__retarget_lock_try_acquire                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__retarget_lock_try_acquire_recursive             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lock.o)
+__sclose                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__seofread                                        D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+__sf                                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+__sflush_r                                        D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+__sfp                                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__sfp_lock_acquire                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__sfp_lock_release                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__sglue                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+__sinit                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+__sread                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__sseek                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__stack                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__stdio_exit_handler                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+__subsf3                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+__swrite                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+__unordsf2                                        D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unordsf2.o)
+_close                                            build_F103C8/syscalls.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+_close_r                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+_ebss                                             build_F103C8/startup_stm32f103xb.o
+_edata                                            build_F103C8/startup_stm32f103xb.o
+_end                                              build_F103C8/sysmem.o
+_estack                                           build_F103C8/startup_stm32f103xb.o
+                                                  build_F103C8/sysmem.o
+_execve                                           build_F103C8/syscalls.o
+_exit                                             build_F103C8/syscalls.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+_fflush_r                                         D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+_fini                                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fini.o)
+_fork                                             build_F103C8/syscalls.o
+_free_r                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-freer.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+_fstat                                            build_F103C8/syscalls.o
+_fwalk_sglue                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fwalk.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+_getpid                                           build_F103C8/syscalls.o
+_impure_data                                      D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+_impure_ptr                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-impure.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+_init                                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/crti.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+_isatty                                           build_F103C8/syscalls.o
+_kill                                             build_F103C8/syscalls.o
+_link                                             build_F103C8/syscalls.o
+_lseek                                            build_F103C8/syscalls.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+_lseek_r                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+_mainCRTStartup                                   D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_malloc_r                                         D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+_open                                             build_F103C8/syscalls.o
+_read                                             build_F103C8/syscalls.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+_read_r                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+_reclaim_reent                                    D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+_sbrk                                             build_F103C8/sysmem.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+_sbrk_r                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mallocr.o)
+_sbss                                             build_F103C8/startup_stm32f103xb.o
+_sdata                                            build_F103C8/startup_stm32f103xb.o
+_sidata                                           build_F103C8/startup_stm32f103xb.o
+_stack_init                                       D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_start                                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_stat                                             build_F103C8/syscalls.o
+_times                                            build_F103C8/syscalls.o
+_unlink                                           build_F103C8/syscalls.o
+_wait                                             build_F103C8/syscalls.o
+_write                                            build_F103C8/syscalls.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+_write_r                                          D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-stdio.o)
+atexit                                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-atexit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+environ                                           build_F103C8/syscalls.o
+errno                                             D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-writer.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-readr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-lseekr.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-closer.o)
+exit                                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-exit.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+expf                                              D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+                                                  build_F103C8/filter.o
+fflush                                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-fflush.o)
+finitef                                           D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_finite.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-wf_exp.o)
+g_pfnVectors                                      build_F103C8/startup_stm32f103xb.o
+hardware_init_hook                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+initialise_monitor_handles                        build_F103C8/syscalls.o
+main                                              build_F103C8/main.o
+                                                  build_F103C8/startup_stm32f103xb.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+malloc                                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-__atexit.o)
+memset                                            D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
+                                                  build_F103C8/system.o
+                                                  D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+software_init_hook                                D:/Programs/Education/STM32/Tools/Xpack/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
